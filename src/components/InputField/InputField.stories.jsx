@@ -1,16 +1,20 @@
 import React from "react";
+import { useForm } from "react-hook-form";
 
 import InputField from "./index";
 
 export default {
-  title: "Forms/InputField",
+  title: "Inputs/InputField",
   component: InputField,
   parameters: {
     layout: "fullscreen",
   },
 };
 
-const Template = (args) => <InputField {...args} />;
+const Template = (args) => {
+  const { register } = useForm();
+  return <InputField {...args} register={register} />;
+};
 
 export const InputName = Template.bind({});
 export const InputEmail = Template.bind({});
@@ -40,6 +44,3 @@ InputAdress.args = {
   type: "text",
   id: "address",
 };
-
-
-

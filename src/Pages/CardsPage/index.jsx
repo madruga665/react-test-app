@@ -5,7 +5,7 @@ import styles from "./styles.module.scss";
 const CardsPage = () => {
   return (
     <section className={styles.CardsPageContainer}>
-      CardsPage
+      <h2>Cartões</h2>
       <div className={styles.CardsContainer}>
         <ProfileCard
           CardType='DarkProfileCard'
