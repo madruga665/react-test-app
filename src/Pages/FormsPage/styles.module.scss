@@ -2,11 +2,19 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  height: 100vh;
+  min-height: 100vh;
   width: 100%;
   background-color: #ecf0f1;
   span {
     color: red;
     font-size: smaller;
   }
+}
+
+.CardsContainer {
+  display: flex;
+  justify-content: flex-start;
+  margin-right: 25px;
+  width: 100%;
+  margin: 25px;
 }
