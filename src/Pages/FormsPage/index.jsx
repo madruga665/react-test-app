@@ -24,7 +24,7 @@ const FormsPage = () => {
   }
   return (
     <div className={styles.FormsPageContainer}>
-      <Header title='Cartões' link1='/' linkTitle1='Home' link2='/cards' linkTitle2='Cartões' />
+      <Header title='Formulário' link1='/' linkTitle1='Home' link2='/cards' linkTitle2='Cartões' />
       <Form handleSubmit={handleSubmit(onSubmit)}>
         <InputField id='name' label='Nome' type='text' register={register} errors={errors} />
         <InputField id='email' label='Email' type='email' register={register} errors={errors} />

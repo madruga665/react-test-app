@@ -8,7 +8,7 @@ export const HeaderContainer = styled.header`
   padding: 0 20px;
   align-items: center;
   width: 100%;
-  height: 60px;
+  height: 80px;
   background-color: #fff;
   box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
   h1 {
