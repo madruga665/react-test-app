@@ -1,24 +1,14 @@
 import React from "react";
-import { Menu, MenuItem, MenuButton, MenuDivider } from "@szhsin/react-menu";
-import styles from "./styles.module.scss";
-import "@szhsin/react-menu/dist/index.css";
-import "@szhsin/react-menu/dist/transitions/slide.css";
 import data from "../../countries.json";
 
-const InputDropdown = () => {
+const InputDropdown = ({ register }) => {
   return (
     <div>
-      <Menu menuButton={<MenuButton className={styles.InputDropdown}>Selecione o pais 🔻</MenuButton>}>
-        {data.map((item, index) => (
-          <div key={item.id}>
-            <MenuItem>
-              <img src={item.flag} alt='' width={50} />
-              {item.name}
-            </MenuItem>
-            <MenuDivider />
-          </div>
+      <select {...register("país")}>
+        {data.map((item) => (
+          <option key={item.id}>{item.name}</option>
         ))}
-      </Menu>
+      </select>
     </div>
   );
 };
