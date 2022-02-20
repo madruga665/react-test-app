@@ -1,14 +1,16 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import styles from './styles.module.scss';
+import { HomeContainer, LinksContainer } from "./styles";
 
 const Home = () => {
   return (
-    <div className={styles.HomeContainer}>
+    <HomeContainer>
       <h1>Meu Super app pra testar libs</h1>
-      <Link to='/cards'>Cards</Link>
-      <Link to='/form'>Form</Link>
-    </div>
+      <LinksContainer>
+        <Link to='/cards'>Cards</Link>
+        <Link to='/form'>Form</Link>
+      </LinksContainer>
+    </HomeContainer>
   );
 };
 
