@@ -3,19 +3,12 @@ import Form from "../../components/Form";
 import InputField from "../../components/InputField";
 import styles from "./styles.module.scss";
 import { yupResolver } from '@hookform/resolvers/yup';
-import * as yup from 'yup';
 import { useForm } from "react-hook-form";
 import InputDropdown from "../../components/InputDropdown";
+import { schema } from "../../validate/schema";
 
 
 const FormsPage = () => {
-  const schema = yup.object({
-  name: yup.string().required('Sem o nome não da parça'),
-  email: yup.string().email().required('Mano coloca o email ai'),
-  phone: yup.string().required('Cara eu juro não não vou te chamar no zap'),
-  address: yup.string().required('ta com vergonha de onde vc mora?'),
-}).required();
-
   const { register, handleSubmit, reset, formState:{ errors }  } = useForm({
     resolver: yupResolver(schema)
   });
@@ -31,7 +24,7 @@ const FormsPage = () => {
         <InputField id='email' label='Email' type='email' register={register} errors={errors} />
         <InputField id='phone' label='Phone' type='text' register={register} errors={errors} />
         <InputField id='address' label='Address' type='text' register={register} errors={errors} />
-        <InputDropdown />
+        <InputDropdown register={register} />
         <button type='submit'>Enviar a Bagaça</button>
       </Form>
     </div>
