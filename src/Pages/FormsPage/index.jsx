@@ -6,6 +6,7 @@ import { yupResolver } from '@hookform/resolvers/yup';
 import { useForm } from "react-hook-form";
 import InputDropdown from "../../components/InputDropdown";
 import { schema } from "../../validate/schema";
+import Button from "../../components/Button";
 
 
 const FormsPage = () => {
@@ -25,7 +26,7 @@ const FormsPage = () => {
         <InputField id='phone' label='Phone' type='text' register={register} errors={errors} />
         <InputField id='address' label='Address' type='text' register={register} errors={errors} />
         <InputDropdown register={register} />
-        <button type='submit'>Enviar a Bagaça</button>
+        <Button type='submit' title={"Enviar a Bagaça"}/>
       </Form>
     </div>
   );
