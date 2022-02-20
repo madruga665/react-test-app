@@ -1,0 +1,5290 @@
+[
+  {
+      "id": 39,
+      "name": "África do Sul",
+      "flag": "https://s3-sa-east-1.amazonaws.com/beecambioimages/countries_svg/zaf.svg",
+      "fields": [
+          {
+              "description": "O código SWIFT é um número único e atua como um identificador de instituições financeiras, sem este número não é possível realizar a transação.",
+              "required": true,
+              "mask": "**** **** ?*?*?*",
+              "label": "Código SWIFT/BIC",
+              "type": "string",
+              "id": "swift",
+              "business_required": true
+          },
+          {
+              "description": "É o número que identifica a conta do beneficiário no exterior.",
+              "mask": "*?*?*?*?*?*?*?*?*?*?*?*?*?*?*?*?*?*?*?*?",
+              "required": true,
+              "type": "string",
+              "id": "account",
+              "label": "Número da conta",
+              "business_required": true
+          },
+          {
+              "description": "O Branch Code é um número, geralmente de 4 dígitos, que identifica a agência da conta.",
+              "required": true,
+              "mask": "**?*?*?*?*?*?*?*?*?",
+              "label": "Branch Code",
+              "type": "string",
+              "id": "branch_code",
+              "business_required": true
+          }
+      ],
+      "address_fields": null,
+      "ddi": "+27",
+      "phone_mask": null,
+      "created_at": "2016-05-12T20:18:07.445Z",
+      "updated_at": "2016-05-12T20:18:07.445Z",
+      "is_active": true,
+      "intermedian_bank": [
+          {
+              "description": "",
+              "required": true,
+              "mask": "",
+              "label": "Nome do banco intermediário",
+              "type": "string",
+              "id": "bank_name"
+          },
+          {
+              "description": "",
+              "required": true,
+              "mask": "",
+              "label": "Código SWIFT ou BIC do banco intermediário",
+              "type": "string",
+              "id": "swift_aba"
+          }
+      ],
+      "country_iso_code": "ZA",
+      "alpha_three": "ZAF",
+      "total_items": "96"
+  },
+  {
+      "id": 15,
+      "name": "Alemanha",
+      "flag": "https://s3-sa-east-1.amazonaws.com/beecambioimages/countries_svg/deu.svg",
+      "fields": [
+          {
+              "description": "O código SWIFT é um número único e atua como um identificador de instituições financeiras, sem este número não é possível realizar a transação.",
+              "required": true,
+              "mask": "**** **** ?*?*?*",
+              "label": "Código SWIFT/BIC",
+              "type": "string",
+              "id": "swift",
+              "business_required": true
+          },
+          {
+              "description": "O IBAN é um código-padrão para identificação de contas bancárias.",
+              "required": true,
+              "label": "IBAN",
+              "type": "string",
+              "id": "iban",
+              "mask": "DE** **** **** **** **** **",
+              "business_required": true
+          }
+      ],
+      "address_fields": null,
+      "ddi": "+49",
+      "phone_mask": null,
+      "created_at": "2016-05-12T20:18:07.445Z",
+      "updated_at": "2016-05-12T20:18:07.445Z",
+      "is_active": true,
+      "intermedian_bank": [
+          {
+              "description": "",
+              "required": true,
+              "mask": "",
+              "label": "Nome do banco intermediário",
+              "type": "string",
+              "id": "bank_name"
+          },
+          {
+              "description": "",
+              "required": true,
+              "mask": "",
+              "label": "Código SWIFT ou BIC do banco intermediário",
+              "type": "string",
+              "id": "swift_aba"
+          }
+      ],
+      "country_iso_code": "DE",
+      "alpha_three": "DEU",
+      "total_items": "96"
+  },
+  {
+      "id": 56,
+      "name": "Angola",
+      "flag": "https://s3-sa-east-1.amazonaws.com/beecambioimages/countries_svg/ago.svg",
+      "fields": [
+          {
+              "description": "O código SWIFT é um número único e atua como um identificador de instituições financeiras, sem este número não é possível realizar a transação.",
+              "required": true,
+              "mask": "**** **** ?*?*?*",
+              "label": "Código SWIFT/BIC",
+              "type": "string",
+              "id": "swift",
+              "business_required": true
+          },
+          {
+              "description": "É o número que identifica a conta do beneficiário no exterior.",
+              "mask": "*?*?*?*?*?*?*?*?*?*?*?*?*?*?*?*?*?*?*?*?",
+              "required": true,
+              "type": "string",
+              "id": "account",
+              "label": "Número da conta",
+              "business_required": true
+          }
+      ],
+      "address_fields": null,
+      "ddi": "+204",
+      "phone_mask": null,
+      "created_at": "2016-12-13T13:22:28.248Z",
+      "updated_at": "2016-12-13T13:22:28.248Z",
+      "is_active": true,
+      "intermedian_bank": [
+          {
+              "description": "",
+              "required": true,
+              "mask": "",
+              "label": "Nome do banco intermediário",
+              "type": "string",
+              "id": "bank_name"
+          },
+          {
+              "description": "",
+              "required": true,
+              "mask": "",
+              "label": "Código SWIFT ou BIC do banco intermediário",
+              "type": "string",
+              "id": "swift_aba"
+          }
+      ],
+      "country_iso_code": "AO",
+      "alpha_three": "AGO",
+      "total_items": "96"
+  },
+  {
+      "id": 61,
+      "name": "Arábia Saudita",
+      "flag": "https://s3-sa-east-1.amazonaws.com/beecambioimages/countries_svg/sau.svg",
+      "fields": [
+          {
+              "description": "O código SWIFT é um número único e atua como um identificador de instituições financeiras, sem este número não é possível realizar a transação.",
+              "required": true,
+              "mask": "**** **** ?*?*?*",
+              "label": "Código SWIFT/BIC",
+              "type": "string",
+              "id": "swift",
+              "business_required": true
+          },
+          {
+              "description": "É o número que identifica a conta do beneficiário no exterior.",
+              "mask": "*?*?*?*?*?*?*?*?*?*?*?*?*?*?*?*?*?*?*?*?",
+              "required": true,
+              "type": "string",
+              "id": "account",
+              "label": "Número da conta",
+              "business_required": true
+          }
+      ],
+      "address_fields": null,
+      "ddi": "+966",
+      "phone_mask": null,
+      "created_at": "2018-03-14T19:24:29.454Z",
+      "updated_at": "2018-03-14T19:24:29.454Z",
+      "is_active": true,
+      "intermedian_bank": [
+          {
+              "description": "",
+              "required": true,
+              "mask": "",
+              "label": "Nome do banco intermediário",
+              "type": "string",
+              "id": "bank_name"
+          },
+          {
+              "description": "",
+              "required": true,
+              "mask": "",
+              "label": "Código SWIFT ou BIC do banco intermediário",
+              "type": "string",
+              "id": "swift_aba"
+          }
+      ],
+      "country_iso_code": "SA",
+      "alpha_three": "SAU",
+      "total_items": "96"
+  },
+  {
+      "id": 57,
+      "name": "Argélia",
+      "flag": "https://s3-sa-east-1.amazonaws.com/beecambioimages/countries_svg/alg.svg",
+      "fields": [
+          {
+              "description": "O código SWIFT é um número único e atua como um identificador de instituições financeiras, sem este número não é possível realizar a transação.",
+              "required": true,
+              "mask": "**** **** ?*?*?*",
+              "label": "Código SWIFT/BIC",
+              "type": "string",
+              "id": "swift",
+              "business_required": true
+          },
+          {
+              "description": "É o número que identifica a conta do beneficiário no exterior.",
+              "mask": "*?*?*?*?*?*?*?*?*?*?*?*?*?*?*?*?*?*?*?*?",
+              "required": true,
+              "type": "string",
+              "id": "account",
+              "label": "Número da conta",
+              "business_required": true
+          }
+      ],
+      "address_fields": null,
+      "ddi": "+213",
+      "phone_mask": null,
+      "created_at": "2016-12-13T13:27:21.423Z",
+      "updated_at": "2016-12-13T13:27:21.423Z",
+      "is_active": true,
+      "intermedian_bank": [
+          {
+              "description": "",
+              "required": true,
+              "mask": "",
+              "label": "Nome do banco intermediário",
+              "type": "string",
+              "id": "bank_name"
+          },
+          {
+              "description": "",
+              "required": true,
+              "mask": "",
+              "label": "Código SWIFT ou BIC do banco intermediário",
+              "type": "string",
+              "id": "swift_aba"
+          }
+      ],
+      "country_iso_code": "DZ",
+      "alpha_three": "DZA",
+      "total_items": "96"
+  },
+  {
+      "id": 53,
+      "name": "Argentina",
+      "flag": "https://s3-sa-east-1.amazonaws.com/beecambioimages/countries_svg/arg.svg",
+      "fields": [
+          {
+              "description": "O código SWIFT é um número único e atua como um identificador de instituições financeiras, sem este número não é possível realizar a transação.",
+              "required": true,
+              "mask": "**** **** ?*?*?*",
+              "label": "Código SWIFT/BIC",
+              "type": "string",
+              "id": "swift",
+              "business_required": true
+          },
+          {
+              "description": "É o número que identifica a conta do beneficiário no exterior.",
+              "mask": "*?*?*?*?*?*?*?*?*?*?*?*?*?*?*?*?*?*?*?*?",
+              "required": true,
+              "type": "string",
+              "id": "account",
+              "label": "Número da conta",
+              "business_required": true
+          }
+      ],
+      "address_fields": null,
+      "ddi": "+54",
+      "phone_mask": null,
+      "created_at": "2016-12-13T13:17:34.598Z",
+      "updated_at": "2016-12-13T13:17:34.598Z",
+      "is_active": true,
+      "intermedian_bank": [
+          {
+              "description": "",
+              "required": true,
+              "mask": "",
+              "label": "Nome do banco intermediário",
+              "type": "string",
+              "id": "bank_name"
+          },
+          {
+              "description": "",
+              "required": true,
+              "mask": "",
+              "label": "Código SWIFT ou BIC do banco intermediário",
+              "type": "string",
+              "id": "swift_aba"
+          }
+      ],
+      "country_iso_code": "AR",
+      "alpha_three": "ARG",
+      "total_items": "96"
+  },
+  {
+      "id": 4,
+      "name": "Austrália",
+      "flag": "https://s3-sa-east-1.amazonaws.com/beecambioimages/countries_svg/aus.svg",
+      "fields": [
+          {
+              "description": "O código SWIFT é um número único e atua como um identificador de instituições financeiras, sem este número não é possível realizar a transação.",
+              "required": true,
+              "mask": "**** **** ?*?*?*",
+              "label": "Código SWIFT/BIC",
+              "type": "string",
+              "id": "swift",
+              "business_required": true
+          },
+          {
+              "description": "É o número que identifica a conta do beneficiário no exterior.",
+              "mask": "*?*?*?*?*?*?*?*?*?*?*?*?*?*?*?*?*?*?*?*?",
+              "required": true,
+              "type": "string",
+              "id": "account",
+              "label": "Número da conta",
+              "business_required": true
+          },
+          {
+              "description": "O BSB - sigla para Bank-State-Branch - é um número de 6 dígitos que identifica bancos e agências australianos.",
+              "required": true,
+              "mask": "999999",
+              "label": "BSB",
+              "type": "string",
+              "id": "bsb",
+              "business_required": true
+          }
+      ],
+      "address_fields": [
+          {
+              "id": "zip_code",
+              "required": true,
+              "type": "string",
+              "label": "Código Postal",
+              "mask": "9999",
+              "max_length": 10
+          },
+          {
+              "id": "street_name",
+              "required": true,
+              "type": "string",
+              "label": "Rua",
+              "max_length": 100
+          },
+          {
+              "id": "number",
+              "required": true,
+              "type": "string",
+              "label": "Número",
+              "max_length": 10
+          },
+          {
+              "id": "complement",
+              "required": false,
+              "type": "string",
+              "label": "Complemento (opcional)",
+              "max_length": 50
+          },
+          {
+              "id": "city",
+              "required": true,
+              "type": "string",
+              "label": "Distrito",
+              "max_length": 100
+          },
+          {
+              "id": "state",
+              "required": true,
+              "type": "string",
+              "label": "Estado",
+              "max_length": 100
+          }
+      ],
+      "ddi": "+61",
+      "phone_mask": null,
+      "created_at": "2016-05-12T19:18:29.448Z",
+      "updated_at": "2016-05-12T19:18:29.448Z",
+      "is_active": true,
+      "intermedian_bank": [
+          {
+              "description": "",
+              "required": true,
+              "mask": "",
+              "label": "Nome do banco intermediário",
+              "type": "string",
+              "id": "bank_name"
+          },
+          {
+              "description": "",
+              "required": true,
+              "mask": "",
+              "label": "Código SWIFT ou BIC do banco intermediário",
+              "type": "string",
+              "id": "swift_aba"
+          }
+      ],
+      "country_iso_code": "AU",
+      "alpha_three": "AUS",
+      "total_items": "96"
+  },
+  {
+      "id": 6,
+      "name": "Áustria",
+      "flag": "https://s3-sa-east-1.amazonaws.com/beecambioimages/countries_svg/aut.svg",
+      "fields": [
+          {
+              "description": "O código SWIFT é um número único e atua como um identificador de instituições financeiras, sem este número não é possível realizar a transação.",
+              "required": true,
+              "mask": "**** **** ?*?*?*",
+              "label": "Código SWIFT/BIC",
+              "type": "string",
+              "id": "swift",
+              "business_required": true
+          },
+          {
+              "description": "O IBAN é um código-padrão para identificação de contas bancárias.",
+              "required": true,
+              "label": "IBAN",
+              "type": "string",
+              "id": "iban",
+              "mask": "\\AT** **** **** **** ****",
+              "business_required": true
+          }
+      ],
+      "address_fields": null,
+      "ddi": "+43",
+      "phone_mask": null,
+      "created_at": "2016-05-12T20:18:00.932Z",
+      "updated_at": "2016-05-12T20:18:00.932Z",
+      "is_active": true,
+      "intermedian_bank": [
+          {
+              "description": "",
+              "required": true,
+              "mask": "",
+              "label": "Nome do banco intermediário",
+              "type": "string",
+              "id": "bank_name"
+          },
+          {
+              "description": "",
+              "required": true,
+              "mask": "",
+              "label": "Código SWIFT ou BIC do banco intermediário",
+              "type": "string",
+              "id": "swift_aba"
+          }
+      ],
+      "country_iso_code": "AT",
+      "alpha_three": "AUT",
+      "total_items": "96"
+  },
+  {
+      "id": 92,
+      "name": "Bahamas",
+      "flag": "https://s3-sa-east-1.amazonaws.com/beecambioimages/countries_svg/bhs.svg",
+      "fields": [
+          {
+              "description": "O código SWIFT é um número único e atua como um identificador de instituições financeiras, sem este número não é possível realizar a transação.",
+              "required": true,
+              "mask": "**** **** ?*?*?*",
+              "label": "Código SWIFT/BIC",
+              "type": "string",
+              "id": "swift",
+              "business_required": true
+          },
+          {
+              "description": "É o número que identifica a conta do beneficiário no exterior.",
+              "mask": "",
+              "required": true,
+              "type": "string",
+              "id": "account",
+              "label": "Número da conta",
+              "business_required": true
+          }
+      ],
+      "address_fields": null,
+      "ddi": "+1",
+      "phone_mask": null,
+      "created_at": "2018-04-16T09:22:30.454Z",
+      "updated_at": "2018-04-16T09:22:30.454Z",
+      "is_active": true,
+      "intermedian_bank": [
+          {
+              "description": "",
+              "required": true,
+              "mask": "",
+              "label": "Nome do banco intermediário",
+              "type": "string",
+              "id": "bank_name"
+          },
+          {
+              "description": "",
+              "required": true,
+              "mask": "",
+              "label": "Código SWIFT ou BIC do banco intermediário",
+              "type": "string",
+              "id": "swift_aba"
+          }
+      ],
+      "country_iso_code": "BS",
+      "alpha_three": "BHS",
+      "total_items": "96"
+  },
+  {
+      "id": 155,
+      "name": "Barbados",
+      "flag": "https://s3-sa-east-1.amazonaws.com/beecambioimages/countries_svg/brb.svg",
+      "fields": [
+          {
+              "description": "O código SWIFT é um número único e atua como um identificador de instituições financeiras, sem este número não é possível realizar a transação.",
+              "required": true,
+              "mask": "**** **** ?*?*?*",
+              "label": "Código SWIFT/BIC",
+              "type": "string",
+              "id": "swift",
+              "business_required": true
+          },
+          {
+              "description": "É o número que identifica a conta do beneficiário no exterior.",
+              "mask": "*?*?*?*?*?*?*?*?*?*?*?*?*?*?*?*?*?*?*?*?",
+              "required": true,
+              "type": "string",
+              "id": "account",
+              "label": "Número da conta",
+              "business_required": true
+          }
+      ],
+      "address_fields": null,
+      "ddi": "+246",
+      "phone_mask": null,
+      "created_at": "2019-03-08T20:53:19.920Z",
+      "updated_at": "2019-03-08T20:53:19.920Z",
+      "is_active": true,
+      "intermedian_bank": [
+          {
+              "description": "",
+              "required": true,
+              "mask": "",
+              "label": "Nome do banco intermediário",
+              "type": "string",
+              "id": "bank_name"
+          },
+          {
+              "description": "",
+              "required": true,
+              "mask": "",
+              "label": "Código SWIFT ou BIC do banco intermediário",
+              "type": "string",
+              "id": "swift_aba"
+          }
+      ],
+      "country_iso_code": "BB",
+      "alpha_three": "BRB",
+      "total_items": "96"
+  },
+  {
+      "id": 7,
+      "name": "Bélgica",
+      "flag": "https://s3-sa-east-1.amazonaws.com/beecambioimages/countries_svg/bel.svg",
+      "fields": [
+          {
+              "description": "O código SWIFT é um número único e atua como um identificador de instituições financeiras, sem este número não é possível realizar a transação.",
+              "required": true,
+              "mask": "**** **** ?*?*?*",
+              "label": "Código SWIFT/BIC",
+              "type": "string",
+              "id": "swift",
+              "business_required": true
+          },
+          {
+              "description": "O IBAN é um código-padrão para identificação de contas bancárias.",
+              "required": true,
+              "label": "IBAN",
+              "type": "string",
+              "id": "iban",
+              "mask": "BE** **** **** ****",
+              "business_required": true
+          }
+      ],
+      "address_fields": null,
+      "ddi": "+32",
+      "phone_mask": null,
+      "created_at": "2016-05-12T20:18:07.445Z",
+      "updated_at": "2016-05-12T20:18:07.445Z",
+      "is_active": true,
+      "intermedian_bank": [
+          {
+              "description": "",
+              "required": true,
+              "mask": "",
+              "label": "Nome do banco intermediário",
+              "type": "string",
+              "id": "bank_name"
+          },
+          {
+              "description": "",
+              "required": true,
+              "mask": "",
+              "label": "Código SWIFT ou BIC do banco intermediário",
+              "type": "string",
+              "id": "swift_aba"
+          }
+      ],
+      "country_iso_code": "BE",
+      "alpha_three": "BEL",
+      "total_items": "96"
+  },
+  {
+      "id": 89,
+      "name": "Benim",
+      "flag": "https://s3-sa-east-1.amazonaws.com/beecambioimages/countries_svg/ben.svg",
+      "fields": [
+          {
+              "description": "O código SWIFT é um número único e atua como um identificador de instituições financeiras, sem este número não é possível realizar a transação.",
+              "required": true,
+              "mask": "**** **** ?*?*?*",
+              "label": "Código SWIFT/BIC",
+              "type": "string",
+              "id": "swift",
+              "business_required": true
+          },
+          {
+              "description": "É o número que identifica a conta do beneficiário no exterior.",
+              "mask": "",
+              "required": true,
+              "type": "string",
+              "id": "account",
+              "label": "Número da conta",
+              "business_required": true
+          }
+      ],
+      "address_fields": null,
+      "ddi": "+229",
+      "phone_mask": null,
+      "created_at": "2018-03-29T18:22:30.454Z",
+      "updated_at": "2018-03-29T18:25:30.454Z",
+      "is_active": true,
+      "intermedian_bank": [
+          {
+              "description": "",
+              "required": true,
+              "mask": "",
+              "label": "Nome do banco intermediário",
+              "type": "string",
+              "id": "bank_name"
+          },
+          {
+              "description": "",
+              "required": true,
+              "mask": "",
+              "label": "Código SWIFT ou BIC do banco intermediário",
+              "type": "string",
+              "id": "swift_aba"
+          }
+      ],
+      "country_iso_code": "BJ",
+      "alpha_three": "BEN",
+      "total_items": "96"
+  },
+  {
+      "id": 151,
+      "name": "Bermudas",
+      "flag": "https://s3-sa-east-1.amazonaws.com/beecambioimages/countries_svg/bmu.svg",
+      "fields": [
+          {
+              "description": "O código SWIFT é um número único e atua como um identificador de instituições financeiras, sem este número não é possível realizar a transação.",
+              "required": true,
+              "mask": "**** **** ?*?*?*",
+              "label": "Código SWIFT/BIC",
+              "type": "string",
+              "id": "swift",
+              "business_required": true
+          },
+          {
+              "description": "É o número que identifica a conta do beneficiário no exterior.",
+              "mask": "*?*?*?*?*?*?*?*?*?*?*?*?*?*?*?*?*?*?*?*?",
+              "required": true,
+              "type": "string",
+              "id": "account",
+              "label": "Número da conta",
+              "business_required": true
+          }
+      ],
+      "address_fields": null,
+      "ddi": "+441",
+      "phone_mask": null,
+      "created_at": "2019-03-08T20:53:19.920Z",
+      "updated_at": "2019-03-08T20:53:19.920Z",
+      "is_active": true,
+      "intermedian_bank": [
+          {
+              "description": "",
+              "required": true,
+              "mask": "",
+              "label": "Nome do banco intermediário",
+              "type": "string",
+              "id": "bank_name"
+          },
+          {
+              "description": "",
+              "required": true,
+              "mask": "",
+              "label": "Código SWIFT ou BIC do banco intermediário",
+              "type": "string",
+              "id": "swift_aba"
+          }
+      ],
+      "country_iso_code": "BM",
+      "alpha_three": "BMU",
+      "total_items": "96"
+  },
+  {
+      "id": 62,
+      "name": "Bolívia",
+      "flag": "https://s3-sa-east-1.amazonaws.com/beecambioimages/countries_svg/bol.svg",
+      "fields": [
+          {
+              "description": "O código SWIFT é um número único e atua como um identificador de instituições financeiras, sem este número não é possível realizar a transação.",
+              "required": true,
+              "mask": "**** **** ?*?*?*",
+              "label": "Código SWIFT/BIC",
+              "type": "string",
+              "id": "swift",
+              "business_required": true
+          },
+          {
+              "description": "É o número que identifica a conta do beneficiário no exterior.",
+              "mask": "*?*?*?*?*?*?*?*?*?*?*?*?*?*?*?*?*?*?*?*?",
+              "required": true,
+              "type": "string",
+              "id": "account",
+              "label": "Número da conta",
+              "business_required": true
+          }
+      ],
+      "address_fields": null,
+      "ddi": "+591",
+      "phone_mask": null,
+      "created_at": "2018-03-14T19:24:29.454Z",
+      "updated_at": "2018-03-14T19:24:29.454Z",
+      "is_active": true,
+      "intermedian_bank": [
+          {
+              "description": "",
+              "required": true,
+              "mask": "",
+              "label": "Nome do banco intermediário",
+              "type": "string",
+              "id": "bank_name"
+          },
+          {
+              "description": "",
+              "required": true,
+              "mask": "",
+              "label": "Código SWIFT ou BIC do banco intermediário",
+              "type": "string",
+              "id": "swift_aba"
+          }
+      ],
+      "country_iso_code": "BO",
+      "alpha_three": "BOL",
+      "total_items": "96"
+  },
+  {
+      "id": 160,
+      "name": "Bósnia",
+      "flag": "https://s3-sa-east-1.amazonaws.com/beecambioimages/countries_svg/bih.svg",
+      "fields": [
+          {
+              "description": "O código SWIFT é um número único e atua como um identificador de instituições financeiras, sem este número não é possível realizar a transação.",
+              "required": true,
+              "mask": "**** **** ?*?*?*",
+              "label": "Código SWIFT/BIC",
+              "type": "string",
+              "id": "swift",
+              "business_required": true
+          },
+          {
+              "description": "O IBAN é um código-padrão para identificação de contas bancárias.",
+              "required": true,
+              "label": "IBAN",
+              "type": "string",
+              "id": "iban",
+              "mask": "B\\A******************",
+              "business_required": true
+          }
+      ],
+      "address_fields": null,
+      "ddi": "+387",
+      "phone_mask": null,
+      "created_at": "2019-03-08T20:53:19.919Z",
+      "updated_at": "2019-03-08T20:53:19.919Z",
+      "is_active": true,
+      "intermedian_bank": [
+          {
+              "description": "",
+              "required": true,
+              "mask": "",
+              "label": "Nome do banco intermediário",
+              "type": "string",
+              "id": "bank_name"
+          },
+          {
+              "description": "",
+              "required": true,
+              "mask": "",
+              "label": "Código SWIFT ou BIC do banco intermediário",
+              "type": "string",
+              "id": "swift_aba"
+          }
+      ],
+      "country_iso_code": "BA",
+      "alpha_three": "BIH",
+      "total_items": "96"
+  },
+  {
+      "id": 1,
+      "name": "Brasil",
+      "flag": "https://s3-sa-east-1.amazonaws.com/beecambioimages/countries_svg/bra.svg",
+      "fields": [
+          {
+              "mask": "",
+              "required": true,
+              "type": "string",
+              "id": "account",
+              "label": "Número da conta",
+              "business_required": true
+          },
+          {
+              "description": "O código SWIFT (ou BIC) é o código internacional de identificação de um banco e é constituído por 8 ou 11 caracteres alfanuméricos. O código ABA Routing Number é o código norte-americano equivalente, porém, constituído por 9 caracteres numéricos.",
+              "required": true,
+              "mask": "**** **** ?*?*?*",
+              "label": "SWIFT,BIC ou ABA Routing Number",
+              "type": "string",
+              "id": "swift",
+              "business_required": true
+          },
+          {
+              "description": "O código é constituído por até 34 caracteres alfanuméricos, conforme o exemplo abaixo:<br />AA12 1234 1234 1234 1234 1234 123<br />AA = Letras, 1234 = dígitos ou letras",
+              "required": false,
+              "mask": "",
+              "label": "IBAN",
+              "type": "string",
+              "id": "iban",
+              "business_required": true
+          }
+      ],
+      "address_fields": null,
+      "ddi": "+55",
+      "phone_mask": "(99) 9?9999-9999",
+      "created_at": "2016-03-23T16:03:11.890Z",
+      "updated_at": "2016-03-23T16:03:11.890Z",
+      "is_active": true,
+      "intermedian_bank": [
+          {
+              "description": "",
+              "required": true,
+              "mask": "",
+              "label": "Nome do banco intermediário",
+              "type": "string",
+              "id": "bank_name"
+          },
+          {
+              "description": "",
+              "required": true,
+              "mask": "",
+              "label": "Código SWIFT ou BIC do banco intermediário",
+              "type": "string",
+              "id": "swift_aba"
+          }
+      ],
+      "country_iso_code": "BR",
+      "alpha_three": "BRA",
+      "total_items": "96"
+  },
+  {
+      "id": 87,
+      "name": "Bulgária",
+      "flag": "https://s3-sa-east-1.amazonaws.com/beecambioimages/countries_svg/bgr.svg",
+      "fields": [
+          {
+              "description": "O código SWIFT é um número único e atua como um identificador de instituições financeiras, sem este número não é possível realizar a transação.",
+              "required": true,
+              "mask": "**** **** ?*?*?*",
+              "label": "Código SWIFT/BIC",
+              "type": "string",
+              "id": "swift",
+              "business_required": true
+          },
+          {
+              "description": "O IBAN é um código-padrão para identificação de contas bancárias.",
+              "required": true,
+              "label": "IBAN",
+              "type": "string",
+              "id": "iban",
+              "mask": "BG** **** **** **** **** **",
+              "business_required": true
+          }
+      ],
+      "address_fields": null,
+      "ddi": "+359",
+      "phone_mask": null,
+      "created_at": "2018-03-29T06:21:30.454Z",
+      "updated_at": "2018-03-29T06:20:30.454Z",
+      "is_active": true,
+      "intermedian_bank": [
+          {
+              "description": "",
+              "required": true,
+              "mask": "",
+              "label": "Nome do banco intermediário",
+              "type": "string",
+              "id": "bank_name"
+          },
+          {
+              "description": "",
+              "required": true,
+              "mask": "",
+              "label": "Código SWIFT ou BIC do banco intermediário",
+              "type": "string",
+              "id": "swift_aba"
+          }
+      ],
+      "country_iso_code": "BG",
+      "alpha_three": "BGR",
+      "total_items": "96"
+  },
+  {
+      "id": 8,
+      "name": "Canadá",
+      "flag": "https://s3-sa-east-1.amazonaws.com/beecambioimages/countries_svg/can.svg",
+      "fields": [
+          {
+              "description": "O código SWIFT é um número único e atua como um identificador de instituições financeiras, sem este número não é possível realizar a transação.",
+              "required": true,
+              "mask": "**** **** ?*?*?*",
+              "label": "Código SWIFT/BIC",
+              "type": "string",
+              "id": "swift",
+              "business_required": true
+          },
+          {
+              "description": "É o número que identifica a conta do beneficiário no exterior.",
+              "mask": "*?*?*?*?*?*?*?*?*?*?*?*?",
+              "required": true,
+              "type": "string",
+              "id": "account",
+              "label": "Número da conta",
+              "business_required": true
+          },
+          {
+              "description": "O Transit Number é um código de 5 dígitos solicitado para transferências feitas para bancos canadenses.",
+              "mask": "99999",
+              "required": true,
+              "label": "TRANSIT",
+              "maxlength": "5",
+              "type": "string",
+              "id": "transit",
+              "business_required": true
+          },
+          {
+              "mask": "",
+              "required": false,
+              "label": "Institution Number",
+              "maxlength": "3",
+              "type": "int",
+              "id": "institution_number",
+              "business_required": false
+          }
+      ],
+      "address_fields": [
+          {
+              "id": "zip_code",
+              "required": true,
+              "type": "string",
+              "label": "Código Postal",
+              "mask": "A9A 9A9",
+              "max_length": 10,
+              "link": "https://www.canadapost.ca/cpo/mc/personal/postalcode/fpc.jsf",
+              "link_label": "Encontrar Código Postal"
+          },
+          {
+              "id": "street_name",
+              "required": true,
+              "type": "string",
+              "label": "Rua",
+              "max_length": 100
+          },
+          {
+              "id": "number",
+              "required": true,
+              "type": "string",
+              "label": "Número",
+              "max_length": 10
+          },
+          {
+              "id": "complement",
+              "required": false,
+              "type": "string",
+              "label": "Complemento (opcional)",
+              "max_length": 50
+          },
+          {
+              "id": "city",
+              "required": true,
+              "type": "string",
+              "label": "Cidade",
+              "max_length": 100
+          },
+          {
+              "id": "state",
+              "required": true,
+              "type": "string",
+              "label": "Província",
+              "max_length": 100
+          }
+      ],
+      "ddi": "+1",
+      "phone_mask": null,
+      "created_at": "2016-05-12T20:18:07.445Z",
+      "updated_at": "2016-05-12T20:18:07.445Z",
+      "is_active": true,
+      "intermedian_bank": [
+          {
+              "description": "",
+              "required": true,
+              "mask": "",
+              "label": "Nome do banco intermediário",
+              "type": "string",
+              "id": "bank_name"
+          },
+          {
+              "description": "",
+              "required": true,
+              "mask": "",
+              "label": "Código SWIFT ou BIC do banco intermediário",
+              "type": "string",
+              "id": "swift_aba"
+          }
+      ],
+      "country_iso_code": "CA",
+      "alpha_three": "CAN",
+      "total_items": "96"
+  },
+  {
+      "id": 60,
+      "name": "Catar",
+      "flag": "https://s3-sa-east-1.amazonaws.com/beecambioimages/countries_svg/qat.svg",
+      "fields": [
+          {
+              "description": "O código SWIFT é um número único e atua como um identificador de instituições financeiras, sem este número não é possível realizar a transação.",
+              "required": true,
+              "mask": "**** **** ?*?*?*",
+              "label": "Código SWIFT/BIC",
+              "type": "string",
+              "id": "swift",
+              "business_required": true
+          },
+          {
+              "description": "É o número que identifica a conta do beneficiário no exterior.",
+              "mask": "*?*?*?*?*?*?*?*?*?*?*?*?*?*?*?*?*?*?*?*?",
+              "required": true,
+              "type": "string",
+              "id": "account",
+              "label": "Número da conta",
+              "business_required": true
+          }
+      ],
+      "address_fields": null,
+      "ddi": "+974",
+      "phone_mask": null,
+      "created_at": "2017-12-04T23:17:16.853Z",
+      "updated_at": "2017-12-04T23:17:16.853Z",
+      "is_active": true,
+      "intermedian_bank": [
+          {
+              "description": "",
+              "required": true,
+              "mask": "",
+              "label": "Nome do banco intermediário",
+              "type": "string",
+              "id": "bank_name"
+          },
+          {
+              "description": "",
+              "required": true,
+              "mask": "",
+              "label": "Código SWIFT ou BIC do banco intermediário",
+              "type": "string",
+              "id": "swift_aba"
+          }
+      ],
+      "country_iso_code": "QA",
+      "alpha_three": "QAT",
+      "total_items": "96"
+  },
+  {
+      "id": 9,
+      "name": "Chile",
+      "flag": "https://s3-sa-east-1.amazonaws.com/beecambioimages/countries_svg/chl.svg",
+      "fields": [
+          {
+              "description": "O código SWIFT é um número único e atua como um identificador de instituições financeiras, sem este número não é possível realizar a transação.",
+              "required": true,
+              "mask": "**** **** ?*?*?*",
+              "label": "Código SWIFT/BIC",
+              "type": "string",
+              "id": "swift",
+              "business_required": true
+          },
+          {
+              "description": "É o número que identifica a conta do beneficiário no exterior.",
+              "mask": "*?*?*?*?*?*?*?*?*?*?*?*?*?*?*?*?*?*?*?*?",
+              "required": true,
+              "type": "string",
+              "id": "account",
+              "label": "Número da conta",
+              "business_required": true
+          },
+          {
+              "description": "O RUT - Rol Único Tributario - é o número de identificação de pagadores de impostos do Chile.",
+              "required": true,
+              "mask": "*******?*?*?",
+              "label": "RUT",
+              "type": "string",
+              "id": "rut",
+              "business_required": false
+          }
+      ],
+      "address_fields": null,
+      "ddi": "+56",
+      "phone_mask": null,
+      "created_at": "2016-05-12T20:18:07.445Z",
+      "updated_at": "2016-05-12T20:18:07.445Z",
+      "is_active": true,
+      "intermedian_bank": [
+          {
+              "description": "",
+              "required": true,
+              "mask": "",
+              "label": "Nome do banco intermediário",
+              "type": "string",
+              "id": "bank_name"
+          },
+          {
+              "description": "",
+              "required": true,
+              "mask": "",
+              "label": "Código SWIFT ou BIC do banco intermediário",
+              "type": "string",
+              "id": "swift_aba"
+          }
+      ],
+      "country_iso_code": "CL",
+      "alpha_three": "CHL",
+      "total_items": "96"
+  },
+  {
+      "id": 40,
+      "name": "China",
+      "flag": "https://s3-sa-east-1.amazonaws.com/beecambioimages/countries_svg/chn.svg",
+      "fields": [
+          {
+              "description": "O código SWIFT é um número único e atua como um identificador de instituições financeiras, sem este número não é possível realizar a transação.",
+              "required": true,
+              "mask": "**** **** ?*?*?*",
+              "label": "Código SWIFT/BIC",
+              "type": "string",
+              "id": "swift",
+              "business_required": true
+          },
+          {
+              "description": "É o número que identifica a conta do beneficiário no exterior.",
+              "mask": "*?*?*?*?*?*?*?*?*?*?*?*?*?*?*?*?*?*?*?*?*?*?*?*?*?",
+              "required": true,
+              "type": "string",
+              "id": "account",
+              "label": "Número da conta",
+              "business_required": true
+          },
+          {
+              "description": "O CNAPS - China National Advanced Payments System - é um número de protocolo do Banco Popular da China.",
+              "required": true,
+              "mask": "************",
+              "label": "CNAPS",
+              "type": "string",
+              "id": "cnaps",
+              "business_required": true
+          }
+      ],
+      "address_fields": null,
+      "ddi": "+86",
+      "phone_mask": null,
+      "created_at": "2016-06-23T18:59:42.776Z",
+      "updated_at": "2016-06-23T18:59:42.776Z",
+      "is_active": true,
+      "intermedian_bank": [
+          {
+              "description": "",
+              "required": true,
+              "mask": "",
+              "label": "Nome do banco intermediário",
+              "type": "string",
+              "id": "bank_name"
+          },
+          {
+              "description": "",
+              "required": true,
+              "mask": "",
+              "label": "Código SWIFT ou BIC do banco intermediário",
+              "type": "string",
+              "id": "swift_aba"
+          }
+      ],
+      "country_iso_code": "CN",
+      "alpha_three": "CHN",
+      "total_items": "96"
+  },
+  {
+      "id": 64,
+      "name": "Chipre",
+      "flag": "https://s3-sa-east-1.amazonaws.com/beecambioimages/countries_svg/cyp.svg",
+      "fields": [
+          {
+              "description": "O código SWIFT é um número único e atua como um identificador de instituições financeiras, sem este número não é possível realizar a transação.",
+              "required": true,
+              "mask": "**** **** ?*?*?*",
+              "label": "Código SWIFT/BIC",
+              "type": "string",
+              "id": "swift",
+              "business_required": true
+          },
+          {
+              "description": "O IBAN é um código-padrão para identificação de contas bancárias.",
+              "required": true,
+              "label": "IBAN",
+              "type": "string",
+              "id": "iban",
+              "mask": "CY** **** **** **** **** **** ****",
+              "business_required": true
+          }
+      ],
+      "address_fields": null,
+      "ddi": "+357",
+      "phone_mask": null,
+      "created_at": "2018-03-14T19:24:29.454Z",
+      "updated_at": "2018-03-14T19:24:29.454Z",
+      "is_active": true,
+      "intermedian_bank": [
+          {
+              "description": "",
+              "required": true,
+              "mask": "",
+              "label": "Nome do banco intermediário",
+              "type": "string",
+              "id": "bank_name"
+          },
+          {
+              "description": "",
+              "required": true,
+              "mask": "",
+              "label": "Código SWIFT ou BIC do banco intermediário",
+              "type": "string",
+              "id": "swift_aba"
+          }
+      ],
+      "country_iso_code": "CY",
+      "alpha_three": "CYP",
+      "total_items": "96"
+  },
+  {
+      "id": 54,
+      "name": "Cingapura",
+      "flag": "https://s3-sa-east-1.amazonaws.com/beecambioimages/countries_svg/sgp.svg",
+      "fields": [
+          {
+              "description": "O código SWIFT é um número único e atua como um identificador de instituições financeiras, sem este número não é possível realizar a transação.",
+              "required": true,
+              "mask": "**** **** ?*?*?*",
+              "label": "Código SWIFT/BIC",
+              "type": "string",
+              "id": "swift",
+              "business_required": true
+          },
+          {
+              "description": "É o número que identifica a conta do beneficiário no exterior.",
+              "mask": "*?*?*?*?*?*?*?*?*?*?*?*?*?*?*?*?*?*?*?*?",
+              "required": true,
+              "type": "string",
+              "id": "account",
+              "label": "Número da conta",
+              "business_required": true
+          }
+      ],
+      "address_fields": null,
+      "ddi": "+65",
+      "phone_mask": null,
+      "created_at": "2016-12-13T13:19:36.499Z",
+      "updated_at": "2016-12-13T13:19:36.499Z",
+      "is_active": true,
+      "intermedian_bank": [
+          {
+              "description": "",
+              "required": true,
+              "mask": "",
+              "label": "Nome do banco intermediário",
+              "type": "string",
+              "id": "bank_name"
+          },
+          {
+              "description": "",
+              "required": true,
+              "mask": "",
+              "label": "Código SWIFT ou BIC do banco intermediário",
+              "type": "string",
+              "id": "swift_aba"
+          }
+      ],
+      "country_iso_code": "SG",
+      "alpha_three": "SGP",
+      "total_items": "96"
+  },
+  {
+      "id": 65,
+      "name": "Colômbia",
+      "flag": "https://s3-sa-east-1.amazonaws.com/beecambioimages/countries_svg/col.svg",
+      "fields": [
+          {
+              "description": "O código SWIFT é um número único e atua como um identificador de instituições financeiras, sem este número não é possível realizar a transação.",
+              "required": true,
+              "mask": "**** **** ?*?*?*",
+              "label": "Código SWIFT/BIC",
+              "type": "string",
+              "id": "swift",
+              "business_required": true
+          },
+          {
+              "description": "É o número que identifica a conta do beneficiário no exterior.",
+              "mask": "*?*?*?*?*?*?*?*?*?*?*?*?*?*?*?*?*?*?*?*?",
+              "required": true,
+              "type": "string",
+              "id": "account",
+              "label": "Número da conta",
+              "business_required": true
+          }
+      ],
+      "address_fields": null,
+      "ddi": "+57",
+      "phone_mask": null,
+      "created_at": "2018-03-14T19:24:29.454Z",
+      "updated_at": "2018-03-14T19:24:29.454Z",
+      "is_active": true,
+      "intermedian_bank": [
+          {
+              "description": "",
+              "required": true,
+              "mask": "",
+              "label": "Nome do banco intermediário",
+              "type": "string",
+              "id": "bank_name"
+          },
+          {
+              "description": "",
+              "required": true,
+              "mask": "",
+              "label": "Código SWIFT ou BIC do banco intermediário",
+              "type": "string",
+              "id": "swift_aba"
+          }
+      ],
+      "country_iso_code": "CO",
+      "alpha_three": "COL",
+      "total_items": "96"
+  },
+  {
+      "id": 23,
+      "name": "Coréia do Sul",
+      "flag": "https://s3-sa-east-1.amazonaws.com/beecambioimages/countries_svg/kor.svg",
+      "fields": [
+          {
+              "description": "O código SWIFT é um número único e atua como um identificador de instituições financeiras, sem este número não é possível realizar a transação.",
+              "required": true,
+              "mask": "**** **** ?*?*?*",
+              "label": "Código SWIFT/BIC",
+              "type": "string",
+              "id": "swift",
+              "business_required": true
+          },
+          {
+              "mask": "",
+              "required": true,
+              "type": "string",
+              "id": "account",
+              "label": "Número da conta",
+              "business_required": true
+          }
+      ],
+      "address_fields": null,
+      "ddi": "+82",
+      "phone_mask": null,
+      "created_at": "2016-05-12T20:18:07.445Z",
+      "updated_at": "2016-05-12T20:18:07.445Z",
+      "is_active": true,
+      "intermedian_bank": [
+          {
+              "description": "",
+              "required": true,
+              "mask": "",
+              "label": "Nome do banco intermediário",
+              "type": "string",
+              "id": "bank_name"
+          },
+          {
+              "description": "",
+              "required": true,
+              "mask": "",
+              "label": "Código SWIFT ou BIC do banco intermediário",
+              "type": "string",
+              "id": "swift_aba"
+          }
+      ],
+      "country_iso_code": "KR",
+      "alpha_three": "KOR",
+      "total_items": "96"
+  },
+  {
+      "id": 55,
+      "name": "Costa Rica",
+      "flag": "https://s3-sa-east-1.amazonaws.com/beecambioimages/countries_svg/cri.svg",
+      "fields": [
+          {
+              "description": "O código SWIFT é um número único e atua como um identificador de instituições financeiras, sem este número não é possível realizar a transação.",
+              "required": true,
+              "mask": "**** **** ?*?*?*",
+              "label": "Código SWIFT/BIC",
+              "type": "string",
+              "id": "swift",
+              "business_required": true
+          },
+          {
+              "description": "É o número que identifica a conta do beneficiário no exterior.",
+              "mask": "*?*?*?*?*?*?*?*?*?*?*?*?*?*?*?*?*?*?*?*?",
+              "required": true,
+              "type": "string",
+              "id": "account",
+              "label": "Número da conta",
+              "business_required": true
+          }
+      ],
+      "address_fields": null,
+      "ddi": "+506",
+      "phone_mask": null,
+      "created_at": "2016-12-13T13:21:12.153Z",
+      "updated_at": "2016-12-13T13:21:12.153Z",
+      "is_active": true,
+      "intermedian_bank": [
+          {
+              "description": "",
+              "required": true,
+              "mask": "",
+              "label": "Nome do banco intermediário",
+              "type": "string",
+              "id": "bank_name"
+          },
+          {
+              "description": "",
+              "required": true,
+              "mask": "",
+              "label": "Código SWIFT ou BIC do banco intermediário",
+              "type": "string",
+              "id": "swift_aba"
+          }
+      ],
+      "country_iso_code": "CR",
+      "alpha_three": "CRI",
+      "total_items": "96"
+  },
+  {
+      "id": 66,
+      "name": "Croácia",
+      "flag": "https://s3-sa-east-1.amazonaws.com/beecambioimages/countries_svg/hrv.svg",
+      "fields": [
+          {
+              "label": "Código SWIFT/BIC",
+              "description": "O código SWIFT é um número único e atua como um identificador de instituições financeiras, sem este número não é possível realizar a transação.",
+              "mask": "**** **** ?*?*?*",
+              "required": true,
+              "type": "string",
+              "business_required": true,
+              "id": "swift"
+          },
+          {
+              "label": "IBAN",
+              "description": "O IBAN é um código-padrão para identificação de contas bancárias.",
+              "mask": "HR** **** **** **** **** *",
+              "required": true,
+              "type": "string",
+              "business_required": true,
+              "id": "iban"
+          }
+      ],
+      "address_fields": null,
+      "ddi": "+385",
+      "phone_mask": null,
+      "created_at": "2018-03-14T19:24:29.454Z",
+      "updated_at": "2018-03-14T19:24:29.454Z",
+      "is_active": true,
+      "intermedian_bank": [
+          {
+              "description": "",
+              "required": true,
+              "mask": "",
+              "label": "Nome do banco intermediário",
+              "type": "string",
+              "id": "bank_name"
+          },
+          {
+              "description": "",
+              "required": true,
+              "mask": "",
+              "label": "Código SWIFT ou BIC do banco intermediário",
+              "type": "string",
+              "id": "swift_aba"
+          }
+      ],
+      "country_iso_code": "HR",
+      "alpha_three": "HRV",
+      "total_items": "96"
+  },
+  {
+      "id": 11,
+      "name": "Dinamarca",
+      "flag": "https://s3-sa-east-1.amazonaws.com/beecambioimages/countries_svg/dnk.svg",
+      "fields": [
+          {
+              "description": "O código SWIFT é um número único e atua como um identificador de instituições financeiras, sem este número não é possível realizar a transação.",
+              "required": true,
+              "mask": "**** **** ?*?*?*",
+              "label": "Código SWIFT/BIC",
+              "type": "string",
+              "id": "swift",
+              "business_required": true
+          },
+          {
+              "description": "O IBAN é um código-padrão para identificação de contas bancárias.",
+              "required": true,
+              "label": "IBAN",
+              "type": "string",
+              "id": "iban",
+              "mask": "DK** **** **** **** **",
+              "business_required": true
+          }
+      ],
+      "address_fields": null,
+      "ddi": "+45",
+      "phone_mask": null,
+      "created_at": "2016-05-12T20:18:07.445Z",
+      "updated_at": "2016-05-12T20:18:07.445Z",
+      "is_active": true,
+      "intermedian_bank": [
+          {
+              "description": "",
+              "required": true,
+              "mask": "",
+              "label": "Nome do banco intermediário",
+              "type": "string",
+              "id": "bank_name"
+          },
+          {
+              "description": "",
+              "required": true,
+              "mask": "",
+              "label": "Código SWIFT ou BIC do banco intermediário",
+              "type": "string",
+              "id": "swift_aba"
+          }
+      ],
+      "country_iso_code": "DK",
+      "alpha_three": "DNK",
+      "total_items": "96"
+  },
+  {
+      "id": 58,
+      "name": "Egito",
+      "flag": "https://s3-sa-east-1.amazonaws.com/beecambioimages/countries_svg/egy.svg",
+      "fields": [
+          {
+              "description": "O código SWIFT é um número único e atua como um identificador de instituições financeiras, sem este número não é possível realizar a transação.",
+              "required": true,
+              "mask": "**** **** ?*?*?*",
+              "label": "Código SWIFT/BIC",
+              "type": "string",
+              "id": "swift",
+              "business_required": true
+          },
+          {
+              "description": "É o número que identifica a conta do beneficiário no exterior.",
+              "mask": "*?*?*?*?*?*?*?*?*?*?*?*?*?*?*?*?*?*?*?*?",
+              "required": true,
+              "type": "string",
+              "id": "account",
+              "label": "Número da conta",
+              "business_required": true
+          }
+      ],
+      "address_fields": null,
+      "ddi": "+20",
+      "phone_mask": null,
+      "created_at": "2016-12-13T13:33:14.735Z",
+      "updated_at": "2016-12-13T13:33:14.735Z",
+      "is_active": true,
+      "intermedian_bank": [
+          {
+              "description": "",
+              "required": true,
+              "mask": "",
+              "label": "Nome do banco intermediário",
+              "type": "string",
+              "id": "bank_name"
+          },
+          {
+              "description": "",
+              "required": true,
+              "mask": "",
+              "label": "Código SWIFT ou BIC do banco intermediário",
+              "type": "string",
+              "id": "swift_aba"
+          }
+      ],
+      "country_iso_code": "EG",
+      "alpha_three": "EGY",
+      "total_items": "96"
+  },
+  {
+      "id": 67,
+      "name": "El Salvador",
+      "flag": "https://s3-sa-east-1.amazonaws.com/beecambioimages/countries_svg/slv.svg",
+      "fields": [
+          {
+              "description": "O código SWIFT é um número único e atua como um identificador de instituições financeiras, sem este número não é possível realizar a transação.",
+              "required": true,
+              "mask": "**** **** ?*?*?*",
+              "label": "Código SWIFT/BIC",
+              "type": "string",
+              "id": "swift",
+              "business_required": true
+          },
+          {
+              "description": "É o número que identifica a conta do beneficiário no exterior.",
+              "mask": "*?*?*?*?*?*?*?*?*?*?*?*?*?*?*?*?*?*?*?*?",
+              "required": true,
+              "type": "string",
+              "id": "account",
+              "label": "Número da conta",
+              "business_required": true
+          }
+      ],
+      "address_fields": null,
+      "ddi": "+503",
+      "phone_mask": null,
+      "created_at": "2018-03-14T19:24:29.454Z",
+      "updated_at": "2018-03-14T19:24:29.454Z",
+      "is_active": true,
+      "intermedian_bank": [
+          {
+              "description": "",
+              "required": true,
+              "mask": "",
+              "label": "Nome do banco intermediário",
+              "type": "string",
+              "id": "bank_name"
+          },
+          {
+              "description": "",
+              "required": true,
+              "mask": "",
+              "label": "Código SWIFT ou BIC do banco intermediário",
+              "type": "string",
+              "id": "swift_aba"
+          }
+      ],
+      "country_iso_code": "SV",
+      "alpha_three": "SLV",
+      "total_items": "96"
+  },
+  {
+      "id": 68,
+      "name": "Emirados Árabes Unidos",
+      "flag": "https://s3-sa-east-1.amazonaws.com/beecambioimages/countries_svg/are.svg",
+      "fields": [
+          {
+              "label": "Código SWIFT/BIC",
+              "description": "O código SWIFT é um número único e atua como um identificador de instituições financeiras, sem este número não é possível realizar a transação.",
+              "mask": "**** **** ?*?*?*",
+              "required": true,
+              "type": "string",
+              "business_required": true,
+              "id": "swift"
+          },
+          {
+              "label": "IBAN",
+              "description": "O IBAN é um código-padrão para identificação de contas bancárias.",
+              "mask": "\\AE** **** **** **** **** ***",
+              "required": true,
+              "type": "string",
+              "business_required": true,
+              "id": "iban"
+          }
+      ],
+      "address_fields": null,
+      "ddi": "+971",
+      "phone_mask": null,
+      "created_at": "2018-03-14T19:24:29.454Z",
+      "updated_at": "2018-03-14T19:24:29.454Z",
+      "is_active": true,
+      "intermedian_bank": [
+          {
+              "description": "",
+              "required": true,
+              "mask": "",
+              "label": "Nome do banco intermediário",
+              "type": "string",
+              "id": "bank_name"
+          },
+          {
+              "description": "",
+              "required": true,
+              "mask": "",
+              "label": "Código SWIFT ou BIC do banco intermediário",
+              "type": "string",
+              "id": "swift_aba"
+          }
+      ],
+      "country_iso_code": "AE",
+      "alpha_three": "ARE",
+      "total_items": "96"
+  },
+  {
+      "id": 82,
+      "name": "Equador",
+      "flag": "https://s3-sa-east-1.amazonaws.com/beecambioimages/countries_svg/ecu.svg",
+      "fields": [
+          {
+              "description": "O código SWIFT é um número único e atua como um identificador de instituições financeiras, sem este número não é possível realizar a transação.",
+              "required": true,
+              "mask": "**** **** ?*?*?*",
+              "label": "Código SWIFT/BIC",
+              "type": "string",
+              "id": "swift",
+              "business_required": true
+          },
+          {
+              "description": "É o número que identifica a conta do beneficiário no exterior.",
+              "mask": "*?*?*?*?*?*?*?*?*?*?*?*?*?*?*?*?*?*?*?*?",
+              "required": true,
+              "type": "string",
+              "id": "account",
+              "label": "Número da conta",
+              "business_required": true
+          },
+          {
+              "description": "Define o tipo da sua conta, se ela é uma Conta Corrente ou Poupança.",
+              "required": true,
+              "mask": "",
+              "label": "Tipo de Conta",
+              "type": "string",
+              "id": "tipo_de_conta",
+              "business_required": true
+          },
+          {
+              "description": "Cédula de Identidad é a carteira de identidade do Equador.",
+              "required": true,
+              "mask": "**?*?*?*?*?*?*?*?*?*?*?*?",
+              "label": "Cédula de Identidad",
+              "type": "string",
+              "id": "cedula_de_identidad",
+              "business_required": false
+          }
+      ],
+      "address_fields": null,
+      "ddi": "+593",
+      "phone_mask": null,
+      "created_at": "2018-03-14T19:24:29.454Z",
+      "updated_at": "2018-03-14T19:24:29.454Z",
+      "is_active": true,
+      "intermedian_bank": [
+          {
+              "description": "",
+              "required": true,
+              "mask": "",
+              "label": "Nome do banco intermediário",
+              "type": "string",
+              "id": "bank_name"
+          },
+          {
+              "description": "",
+              "required": true,
+              "mask": "",
+              "label": "Código SWIFT ou BIC do banco intermediário",
+              "type": "string",
+              "id": "swift_aba"
+          }
+      ],
+      "country_iso_code": "EC",
+      "alpha_three": "ECU",
+      "total_items": "96"
+  },
+  {
+      "id": 31,
+      "name": "Eslováquia",
+      "flag": "https://s3-sa-east-1.amazonaws.com/beecambioimages/countries_svg/svk.svg",
+      "fields": [
+          {
+              "description": "O código SWIFT é um número único e atua como um identificador de instituições financeiras, sem este número não é possível realizar a transação.",
+              "required": true,
+              "mask": "**** **** ?*?*?*",
+              "label": "Código SWIFT/BIC",
+              "type": "string",
+              "id": "swift",
+              "business_required": true
+          },
+          {
+              "description": "O IBAN é um código-padrão para identificação de contas bancárias.",
+              "required": true,
+              "label": "IBAN",
+              "type": "string",
+              "id": "iban",
+              "mask": "SK** **** **** **** **** ****",
+              "business_required": true
+          }
+      ],
+      "address_fields": null,
+      "ddi": "+421",
+      "phone_mask": null,
+      "created_at": "2016-05-12T20:18:07.445Z",
+      "updated_at": "2016-05-12T20:18:07.445Z",
+      "is_active": true,
+      "intermedian_bank": [
+          {
+              "description": "",
+              "required": true,
+              "mask": "",
+              "label": "Nome do banco intermediário",
+              "type": "string",
+              "id": "bank_name"
+          },
+          {
+              "description": "",
+              "required": true,
+              "mask": "",
+              "label": "Código SWIFT ou BIC do banco intermediário",
+              "type": "string",
+              "id": "swift_aba"
+          }
+      ],
+      "country_iso_code": "SK",
+      "alpha_three": "SVK",
+      "total_items": "96"
+  },
+  {
+      "id": 32,
+      "name": "Eslovênia",
+      "flag": "https://s3-sa-east-1.amazonaws.com/beecambioimages/countries_svg/svn.svg",
+      "fields": [
+          {
+              "description": "O código SWIFT é um número único e atua como um identificador de instituições financeiras, sem este número não é possível realizar a transação.",
+              "required": true,
+              "mask": "**** **** ?*?*?*",
+              "label": "Código SWIFT/BIC",
+              "type": "string",
+              "id": "swift",
+              "business_required": true
+          },
+          {
+              "description": "O IBAN é um código-padrão para identificação de contas bancárias.",
+              "required": true,
+              "label": "IBAN",
+              "type": "string",
+              "id": "iban",
+              "mask": "SI** **** **** **** ***",
+              "business_required": true
+          }
+      ],
+      "address_fields": null,
+      "ddi": "+386",
+      "phone_mask": null,
+      "created_at": "2016-05-12T20:18:07.445Z",
+      "updated_at": "2016-05-12T20:18:07.445Z",
+      "is_active": true,
+      "intermedian_bank": [
+          {
+              "description": "",
+              "required": true,
+              "mask": "",
+              "label": "Nome do banco intermediário",
+              "type": "string",
+              "id": "bank_name"
+          },
+          {
+              "description": "",
+              "required": true,
+              "mask": "",
+              "label": "Código SWIFT ou BIC do banco intermediário",
+              "type": "string",
+              "id": "swift_aba"
+          }
+      ],
+      "country_iso_code": "SI",
+      "alpha_three": "SVN",
+      "total_items": "96"
+  },
+  {
+      "id": 33,
+      "name": "Espanha",
+      "flag": "https://s3-sa-east-1.amazonaws.com/beecambioimages/countries_svg/esp.svg",
+      "fields": [
+          {
+              "description": "O código SWIFT é um número único e atua como um identificador de instituições financeiras, sem este número não é possível realizar a transação.",
+              "required": true,
+              "mask": "**** **** ?*?*?*",
+              "label": "Código SWIFT/BIC",
+              "type": "string",
+              "id": "swift",
+              "business_required": true
+          },
+          {
+              "description": "O IBAN é um código-padrão para identificação de contas bancárias.",
+              "required": true,
+              "label": "IBAN",
+              "type": "string",
+              "id": "iban",
+              "mask": "ES** **** **** **** **** ****",
+              "business_required": true
+          }
+      ],
+      "address_fields": null,
+      "ddi": "+34",
+      "phone_mask": null,
+      "created_at": "2016-05-12T20:18:07.445Z",
+      "updated_at": "2016-05-12T20:18:07.445Z",
+      "is_active": true,
+      "intermedian_bank": [
+          {
+              "description": "",
+              "required": true,
+              "mask": "",
+              "label": "Nome do banco intermediário",
+              "type": "string",
+              "id": "bank_name"
+          },
+          {
+              "description": "",
+              "required": true,
+              "mask": "",
+              "label": "Código SWIFT ou BIC do banco intermediário",
+              "type": "string",
+              "id": "swift_aba"
+          }
+      ],
+      "country_iso_code": "ES",
+      "alpha_three": "ESP",
+      "total_items": "96"
+  },
+  {
+      "id": 38,
+      "name": "Estados Unidos",
+      "flag": "https://s3-sa-east-1.amazonaws.com/beecambioimages/countries_svg/usa.svg",
+      "fields": [
+          {
+              "description": "A função do ABA Routing Number é identificar agências bancárias dentro dos EUA.",
+              "required": false,
+              "mask": "999999999",
+              "label": "ABA Routing Number",
+              "type": "string",
+              "id": "aba_routing_number",
+              "business_required": false
+          },
+          {
+              "description": "O código SWIFT é um número único e atua como um identificador de instituições financeiras, sem este número não é possível realizar a transação.",
+              "required": false,
+              "mask": "**** **** ?*?*?*",
+              "label": "Código SWIFT/BIC",
+              "type": "string",
+              "id": "swift",
+              "business_required": true
+          },
+          {
+              "description": "É o número que identifica a conta do beneficiário no exterior.",
+              "mask": "*?*?*?*?*?*?*?*?*?*?*?*?*?*?*?*?*?*?*?*?",
+              "required": true,
+              "type": "string",
+              "id": "account",
+              "label": "Número da conta",
+              "business_required": true
+          }
+      ],
+      "address_fields": null,
+      "ddi": "+1",
+      "phone_mask": null,
+      "created_at": "2016-05-12T20:18:07.445Z",
+      "updated_at": "2018-05-20T20:32:08.708Z",
+      "is_active": true,
+      "intermedian_bank": [
+          {
+              "description": "",
+              "required": true,
+              "mask": "",
+              "label": "Nome do banco intermediário",
+              "type": "string",
+              "id": "bank_name"
+          },
+          {
+              "description": "",
+              "required": true,
+              "mask": "",
+              "label": "Código SWIFT ou BIC do banco intermediário",
+              "type": "string",
+              "id": "swift_aba"
+          }
+      ],
+      "country_iso_code": "US",
+      "alpha_three": "USA",
+      "total_items": "96"
+  },
+  {
+      "id": 12,
+      "name": "Estônia",
+      "flag": "https://s3-sa-east-1.amazonaws.com/beecambioimages/countries_svg/est.svg",
+      "fields": [
+          {
+              "description": "O código SWIFT é um número único e atua como um identificador de instituições financeiras, sem este número não é possível realizar a transação.",
+              "required": true,
+              "mask": "**** **** ?*?*?*",
+              "label": "Código SWIFT/BIC",
+              "type": "string",
+              "id": "swift",
+              "business_required": true
+          },
+          {
+              "description": "O IBAN é um código-padrão para identificação de contas bancárias.",
+              "required": true,
+              "label": "IBAN",
+              "type": "string",
+              "id": "iban",
+              "mask": "EE** **** **** **** ****",
+              "business_required": true
+          }
+      ],
+      "address_fields": null,
+      "ddi": "+372",
+      "phone_mask": null,
+      "created_at": "2016-05-12T20:18:07.445Z",
+      "updated_at": "2016-05-12T20:18:07.445Z",
+      "is_active": true,
+      "intermedian_bank": [
+          {
+              "description": "",
+              "required": true,
+              "mask": "",
+              "label": "Nome do banco intermediário",
+              "type": "string",
+              "id": "bank_name"
+          },
+          {
+              "description": "",
+              "required": true,
+              "mask": "",
+              "label": "Código SWIFT ou BIC do banco intermediário",
+              "type": "string",
+              "id": "swift_aba"
+          }
+      ],
+      "country_iso_code": "EE",
+      "alpha_three": "EST",
+      "total_items": "96"
+  },
+  {
+      "id": 69,
+      "name": "Filipinas",
+      "flag": "https://s3-sa-east-1.amazonaws.com/beecambioimages/countries_svg/phl.svg",
+      "fields": [
+          {
+              "description": "O código SWIFT é um número único e atua como um identificador de instituições financeiras, sem este número não é possível realizar a transação.",
+              "required": true,
+              "mask": "**** **** ?*?*?*",
+              "label": "Código SWIFT/BIC",
+              "type": "string",
+              "id": "swift",
+              "business_required": true
+          },
+          {
+              "description": "É o número que identifica a conta do beneficiário no exterior.",
+              "mask": "*?*?*?*?*?*?*?*?*?*?*?*?*?*?*?*?*?*?*?*?",
+              "required": true,
+              "type": "string",
+              "id": "account",
+              "label": "Número da conta",
+              "business_required": true
+          }
+      ],
+      "address_fields": null,
+      "ddi": "+63",
+      "phone_mask": null,
+      "created_at": "2018-03-14T19:24:29.454Z",
+      "updated_at": "2018-03-14T19:24:29.454Z",
+      "is_active": true,
+      "intermedian_bank": [
+          {
+              "description": "",
+              "required": true,
+              "mask": "",
+              "label": "Nome do banco intermediário",
+              "type": "string",
+              "id": "bank_name"
+          },
+          {
+              "description": "",
+              "required": true,
+              "mask": "",
+              "label": "Código SWIFT ou BIC do banco intermediário",
+              "type": "string",
+              "id": "swift_aba"
+          }
+      ],
+      "country_iso_code": "PH",
+      "alpha_three": "PHL",
+      "total_items": "96"
+  },
+  {
+      "id": 13,
+      "name": "Finlândia",
+      "flag": "https://s3-sa-east-1.amazonaws.com/beecambioimages/countries_svg/fin.svg",
+      "fields": [
+          {
+              "description": "O código SWIFT é um número único e atua como um identificador de instituições financeiras, sem este número não é possível realizar a transação.",
+              "required": true,
+              "mask": "**** **** ?*?*?*",
+              "label": "Código SWIFT/BIC",
+              "type": "string",
+              "id": "swift",
+              "business_required": true
+          },
+          {
+              "description": "O IBAN é um código-padrão para identificação de contas bancárias.",
+              "required": true,
+              "label": "IBAN",
+              "type": "string",
+              "id": "iban",
+              "mask": "FI** **** **** **** **",
+              "business_required": true
+          }
+      ],
+      "address_fields": null,
+      "ddi": "+358",
+      "phone_mask": null,
+      "created_at": "2016-05-12T20:18:07.445Z",
+      "updated_at": "2016-05-12T20:18:07.445Z",
+      "is_active": true,
+      "intermedian_bank": [
+          {
+              "description": "",
+              "required": true,
+              "mask": "",
+              "label": "Nome do banco intermediário",
+              "type": "string",
+              "id": "bank_name"
+          },
+          {
+              "description": "",
+              "required": true,
+              "mask": "",
+              "label": "Código SWIFT ou BIC do banco intermediário",
+              "type": "string",
+              "id": "swift_aba"
+          }
+      ],
+      "country_iso_code": "FI",
+      "alpha_three": "FIN",
+      "total_items": "96"
+  },
+  {
+      "id": 14,
+      "name": "França",
+      "flag": "https://s3-sa-east-1.amazonaws.com/beecambioimages/countries_svg/fra.svg",
+      "fields": [
+          {
+              "description": "O código SWIFT é um número único e atua como um identificador de instituições financeiras, sem este número não é possível realizar a transação.",
+              "required": true,
+              "mask": "**** **** ?*?*?*",
+              "label": "Código SWIFT/BIC",
+              "type": "string",
+              "id": "swift",
+              "business_required": true
+          },
+          {
+              "description": "O IBAN é um código-padrão para identificação de contas bancárias.",
+              "required": true,
+              "label": "IBAN",
+              "type": "string",
+              "id": "iban",
+              "mask": "FR** **** **** **** **** **** ***",
+              "business_required": true
+          }
+      ],
+      "address_fields": null,
+      "ddi": "+33",
+      "phone_mask": null,
+      "created_at": "2016-05-12T20:18:07.445Z",
+      "updated_at": "2016-05-12T20:18:07.445Z",
+      "is_active": true,
+      "intermedian_bank": [
+          {
+              "description": "",
+              "required": true,
+              "mask": "",
+              "label": "Nome do banco intermediário",
+              "type": "string",
+              "id": "bank_name"
+          },
+          {
+              "description": "",
+              "required": true,
+              "mask": "",
+              "label": "Código SWIFT ou BIC do banco intermediário",
+              "type": "string",
+              "id": "swift_aba"
+          }
+      ],
+      "country_iso_code": "FR",
+      "alpha_three": "FRA",
+      "total_items": "96"
+  },
+  {
+      "id": 153,
+      "name": "Gana",
+      "flag": "https://s3-sa-east-1.amazonaws.com/beecambioimages/countries_svg/gha.svg",
+      "fields": [
+          {
+              "description": "O código SWIFT é um número único e atua como um identificador de instituições financeiras, sem este número não é possível realizar a transação.",
+              "required": true,
+              "mask": "**** **** ?*?*?*",
+              "label": "Código SWIFT/BIC",
+              "type": "string",
+              "id": "swift",
+              "business_required": true
+          },
+          {
+              "description": "É o número que identifica a conta do beneficiário no exterior.",
+              "mask": "*?*?*?*?*?*?*?*?*?*?*?*?*?*?*?*?*?*?*?*?",
+              "required": true,
+              "type": "string",
+              "id": "account",
+              "label": "Número da conta",
+              "business_required": true
+          }
+      ],
+      "address_fields": null,
+      "ddi": "+233",
+      "phone_mask": null,
+      "created_at": "2019-03-08T20:53:19.920Z",
+      "updated_at": "2019-03-08T20:53:19.920Z",
+      "is_active": true,
+      "intermedian_bank": [
+          {
+              "description": "",
+              "required": true,
+              "mask": "",
+              "label": "Nome do banco intermediário",
+              "type": "string",
+              "id": "bank_name"
+          },
+          {
+              "description": "",
+              "required": true,
+              "mask": "",
+              "label": "Código SWIFT ou BIC do banco intermediário",
+              "type": "string",
+              "id": "swift_aba"
+          }
+      ],
+      "country_iso_code": "GH",
+      "alpha_three": "GHA",
+      "total_items": "96"
+  },
+  {
+      "id": 16,
+      "name": "Grécia",
+      "flag": "https://s3-sa-east-1.amazonaws.com/beecambioimages/countries_svg/grc.svg",
+      "fields": [
+          {
+              "description": "O código SWIFT é um número único e atua como um identificador de instituições financeiras, sem este número não é possível realizar a transação.",
+              "required": true,
+              "mask": "**** **** ?*?*?*",
+              "label": "Código SWIFT/BIC",
+              "type": "string",
+              "id": "swift",
+              "business_required": true
+          },
+          {
+              "description": "O IBAN é um código-padrão para identificação de contas bancárias.",
+              "required": true,
+              "label": "IBAN",
+              "type": "string",
+              "id": "iban",
+              "mask": "GR** **** **** **** **** **** ***",
+              "business_required": true
+          }
+      ],
+      "address_fields": null,
+      "ddi": "+30",
+      "phone_mask": null,
+      "created_at": "2016-05-12T20:18:07.445Z",
+      "updated_at": "2016-05-12T20:18:07.445Z",
+      "is_active": true,
+      "intermedian_bank": [
+          {
+              "description": "",
+              "required": true,
+              "mask": "",
+              "label": "Nome do banco intermediário",
+              "type": "string",
+              "id": "bank_name"
+          },
+          {
+              "description": "",
+              "required": true,
+              "mask": "",
+              "label": "Código SWIFT ou BIC do banco intermediário",
+              "type": "string",
+              "id": "swift_aba"
+          }
+      ],
+      "country_iso_code": "GR",
+      "alpha_three": "GRC",
+      "total_items": "96"
+  },
+  {
+      "id": 83,
+      "name": "Guatemala",
+      "flag": "https://s3-sa-east-1.amazonaws.com/beecambioimages/countries_svg/gtm.svg",
+      "fields": [
+          {
+              "description": "O código SWIFT é um número único e atua como um identificador de instituições financeiras, sem este número não é possível realizar a transação.",
+              "required": true,
+              "mask": "**** **** ?*?*?*",
+              "label": "Código SWIFT/BIC",
+              "type": "string",
+              "id": "swift",
+              "business_required": true
+          },
+          {
+              "description": "É o número que identifica a conta do beneficiário no exterior.",
+              "mask": "*?*?*?*?*?*?*?*?*?*?*?*?*?*?*?*?*?*?*?*?",
+              "required": true,
+              "type": "string",
+              "id": "account",
+              "label": "Número da conta",
+              "business_required": true
+          }
+      ],
+      "address_fields": null,
+      "ddi": "+502",
+      "phone_mask": null,
+      "created_at": "2018-03-14T19:24:29.454Z",
+      "updated_at": "2018-03-14T19:24:29.454Z",
+      "is_active": true,
+      "intermedian_bank": [
+          {
+              "description": "",
+              "required": true,
+              "mask": "",
+              "label": "Nome do banco intermediário",
+              "type": "string",
+              "id": "bank_name"
+          },
+          {
+              "description": "",
+              "required": true,
+              "mask": "",
+              "label": "Código SWIFT ou BIC do banco intermediário",
+              "type": "string",
+              "id": "swift_aba"
+          }
+      ],
+      "country_iso_code": "GT",
+      "alpha_three": "GTM",
+      "total_items": "96"
+  },
+  {
+      "id": 70,
+      "name": "Guiana Francesa",
+      "flag": "https://s3-sa-east-1.amazonaws.com/beecambioimages/countries_svg/guf.svg",
+      "fields": [
+          {
+              "description": "O código SWIFT é um número único e atua como um identificador de instituições financeiras, sem este número não é possível realizar a transação.",
+              "required": true,
+              "mask": "**** **** ?*?*?*",
+              "label": "Código SWIFT/BIC",
+              "type": "string",
+              "id": "swift",
+              "business_required": true
+          },
+          {
+              "description": "É o número que identifica a conta do beneficiário no exterior.",
+              "mask": "*?*?*?*?*?*?*?*?*?*?*?*?*?*?*?*?*?*?*?*?",
+              "required": true,
+              "type": "string",
+              "id": "account",
+              "label": "Número da conta",
+              "business_required": true
+          },
+          {
+              "description": "O IBAN é um código-padrão para identificação de contas bancárias.",
+              "required": true,
+              "label": "IBAN",
+              "type": "string",
+              "id": "iban",
+              "mask": "FR** **** **** **** **** **** ***",
+              "business_required": true
+          }
+      ],
+      "address_fields": null,
+      "ddi": "+594",
+      "phone_mask": null,
+      "created_at": "2018-03-14T19:24:29.454Z",
+      "updated_at": "2018-03-14T19:24:29.454Z",
+      "is_active": true,
+      "intermedian_bank": [
+          {
+              "description": "",
+              "required": true,
+              "mask": "",
+              "label": "Nome do banco intermediário",
+              "type": "string",
+              "id": "bank_name"
+          },
+          {
+              "description": "",
+              "required": true,
+              "mask": "",
+              "label": "Código SWIFT ou BIC do banco intermediário",
+              "type": "string",
+              "id": "swift_aba"
+          }
+      ],
+      "country_iso_code": "GF",
+      "alpha_three": "GUF",
+      "total_items": "96"
+  },
+  {
+      "id": 84,
+      "name": "Haiti",
+      "flag": "https://s3-sa-east-1.amazonaws.com/beecambioimages/countries_svg/hti.svg",
+      "fields": [
+          {
+              "description": "O código SWIFT é um número único e atua como um identificador de instituições financeiras, sem este número não é possível realizar a transação.",
+              "required": true,
+              "mask": "**** **** ?*?*?*",
+              "label": "Código SWIFT/BIC",
+              "type": "string",
+              "id": "swift",
+              "business_required": true
+          },
+          {
+              "description": "É o número que identifica a conta do beneficiário no exterior.",
+              "mask": "*?*?*?*?*?*?*?*?*?*?*?*?*?*?*?*?*?*?*?*?",
+              "required": true,
+              "type": "string",
+              "id": "account",
+              "label": "Número da conta",
+              "business_required": true
+          }
+      ],
+      "address_fields": null,
+      "ddi": "+509",
+      "phone_mask": null,
+      "created_at": "2018-03-14T19:24:29.454Z",
+      "updated_at": "2018-03-14T19:24:29.454Z",
+      "is_active": true,
+      "intermedian_bank": [
+          {
+              "description": "",
+              "required": true,
+              "mask": "",
+              "label": "Nome do banco intermediário",
+              "type": "string",
+              "id": "bank_name"
+          },
+          {
+              "description": "",
+              "required": true,
+              "mask": "",
+              "label": "Código SWIFT ou BIC do banco intermediário",
+              "type": "string",
+              "id": "swift_aba"
+          }
+      ],
+      "country_iso_code": "HT",
+      "alpha_three": "HTI",
+      "total_items": "96"
+  },
+  {
+      "id": 26,
+      "name": "Holanda",
+      "flag": "https://s3-sa-east-1.amazonaws.com/beecambioimages/countries_svg/nld.svg",
+      "fields": [
+          {
+              "description": "O código SWIFT é um número único e atua como um identificador de instituições financeiras, sem este número não é possível realizar a transação.",
+              "required": true,
+              "mask": "**** **** ?*?*?*",
+              "label": "Código SWIFT/BIC",
+              "type": "string",
+              "id": "swift",
+              "business_required": true
+          },
+          {
+              "description": "O IBAN é um código-padrão para identificação de contas bancárias.",
+              "required": true,
+              "label": "IBAN",
+              "type": "string",
+              "id": "iban",
+              "mask": "NL** **** **** **** **",
+              "business_required": true
+          }
+      ],
+      "address_fields": null,
+      "ddi": "+31",
+      "phone_mask": null,
+      "created_at": "2016-05-12T20:18:07.445Z",
+      "updated_at": "2016-05-12T20:18:07.445Z",
+      "is_active": true,
+      "intermedian_bank": [
+          {
+              "description": "",
+              "required": true,
+              "mask": "",
+              "label": "Nome do banco intermediário",
+              "type": "string",
+              "id": "bank_name"
+          },
+          {
+              "description": "",
+              "required": true,
+              "mask": "",
+              "label": "Código SWIFT ou BIC do banco intermediário",
+              "type": "string",
+              "id": "swift_aba"
+          }
+      ],
+      "country_iso_code": "NL",
+      "alpha_three": "NLD",
+      "total_items": "96"
+  },
+  {
+      "id": 71,
+      "name": "Honduras",
+      "flag": "https://s3-sa-east-1.amazonaws.com/beecambioimages/countries_svg/hnd.svg",
+      "fields": [
+          {
+              "description": "O código SWIFT é um número único e atua como um identificador de instituições financeiras, sem este número não é possível realizar a transação.",
+              "required": true,
+              "mask": "**** **** ?*?*?*",
+              "label": "Código SWIFT/BIC",
+              "type": "string",
+              "id": "swift",
+              "business_required": true
+          },
+          {
+              "description": "É o número que identifica a conta do beneficiário no exterior.",
+              "mask": "*?*?*?*?*?*?*?*?*?*?*?*?*?*?*?*?*?*?*?*?",
+              "required": true,
+              "type": "string",
+              "id": "account",
+              "label": "Número da conta",
+              "business_required": true
+          }
+      ],
+      "address_fields": null,
+      "ddi": "+504",
+      "phone_mask": null,
+      "created_at": "2018-03-14T19:24:29.454Z",
+      "updated_at": "2018-03-14T19:24:29.454Z",
+      "is_active": true,
+      "intermedian_bank": [
+          {
+              "description": "",
+              "required": true,
+              "mask": "",
+              "label": "Nome do banco intermediário",
+              "type": "string",
+              "id": "bank_name"
+          },
+          {
+              "description": "",
+              "required": true,
+              "mask": "",
+              "label": "Código SWIFT ou BIC do banco intermediário",
+              "type": "string",
+              "id": "swift_aba"
+          }
+      ],
+      "country_iso_code": "HN",
+      "alpha_three": "HND",
+      "total_items": "96"
+  },
+  {
+      "id": 85,
+      "name": "Hong Kong",
+      "flag": "https://s3-sa-east-1.amazonaws.com/beecambioimages/countries_svg/hkg.svg",
+      "fields": [
+          {
+              "description": "O código SWIFT é um número único e atua como um identificador de instituições financeiras, sem este número não é possível realizar a transação.",
+              "required": true,
+              "mask": "**** **** ?*?*?*",
+              "label": "Código SWIFT/BIC",
+              "type": "string",
+              "id": "swift",
+              "business_required": true
+          },
+          {
+              "description": "É o número que identifica a conta do beneficiário no exterior.",
+              "mask": "*?*?*?*?*?*?*?*?*?*?*?*?*?*?*?*?*?*?*?*?",
+              "required": true,
+              "type": "string",
+              "id": "account",
+              "label": "Número da conta",
+              "business_required": true
+          },
+          {
+              "description": "O Branch Code é um número, geralmente de 4 dígitos, que identifica a agência da conta.",
+              "required": false,
+              "mask": "**?*?*?*?*?*?*?*?*?",
+              "label": "Branch Code",
+              "type": "string",
+              "id": "branch_code",
+              "business_required": false
+          }
+      ],
+      "address_fields": null,
+      "ddi": "+852",
+      "phone_mask": null,
+      "created_at": "2018-03-14T19:24:29.454Z",
+      "updated_at": "2018-03-14T19:24:29.454Z",
+      "is_active": true,
+      "intermedian_bank": [
+          {
+              "description": "",
+              "required": true,
+              "mask": "",
+              "label": "Nome do banco intermediário",
+              "type": "string",
+              "id": "bank_name"
+          },
+          {
+              "description": "",
+              "required": true,
+              "mask": "",
+              "label": "Código SWIFT ou BIC do banco intermediário",
+              "type": "string",
+              "id": "swift_aba"
+          }
+      ],
+      "country_iso_code": "HK",
+      "alpha_three": "HKG",
+      "total_items": "96"
+  },
+  {
+      "id": 17,
+      "name": "Hungria",
+      "flag": "https://s3-sa-east-1.amazonaws.com/beecambioimages/countries_svg/hun.svg",
+      "fields": [
+          {
+              "description": "O código SWIFT é um número único e atua como um identificador de instituições financeiras, sem este número não é possível realizar a transação.",
+              "required": true,
+              "mask": "**** **** ?*?*?*",
+              "label": "Código SWIFT/BIC",
+              "type": "string",
+              "id": "swift",
+              "business_required": true
+          },
+          {
+              "description": "O IBAN é um código-padrão para identificação de contas bancárias.",
+              "required": true,
+              "label": "IBAN",
+              "type": "string",
+              "id": "iban",
+              "mask": "HU** **** **** **** **** **** ****",
+              "business_required": true
+          }
+      ],
+      "address_fields": null,
+      "ddi": "+36",
+      "phone_mask": null,
+      "created_at": "2016-05-12T20:18:07.445Z",
+      "updated_at": "2016-05-12T20:18:07.445Z",
+      "is_active": true,
+      "intermedian_bank": [
+          {
+              "description": "",
+              "required": true,
+              "mask": "",
+              "label": "Nome do banco intermediário",
+              "type": "string",
+              "id": "bank_name"
+          },
+          {
+              "description": "",
+              "required": true,
+              "mask": "",
+              "label": "Código SWIFT ou BIC do banco intermediário",
+              "type": "string",
+              "id": "swift_aba"
+          }
+      ],
+      "country_iso_code": "HU",
+      "alpha_three": "HUN",
+      "total_items": "96"
+  },
+  {
+      "id": 91,
+      "name": "Ilha do Homem",
+      "flag": "https://s3-sa-east-1.amazonaws.com/beecambioimages/countries_svg/imn.svg",
+      "fields": [
+          {
+              "description": "O código SWIFT é um número único e atua como um identificador de instituições financeiras, sem este número não é possível realizar a transação.",
+              "required": true,
+              "mask": "**** **** ?*?*?*",
+              "label": "Código SWIFT/BIC",
+              "type": "string",
+              "id": "swift",
+              "business_required": true
+          },
+          {
+              "description": "O IBAN é um código-padrão para identificação de contas bancárias.",
+              "required": true,
+              "label": "IBAN",
+              "type": "string",
+              "id": "iban",
+              "mask": "GB** **** **** **** **** **",
+              "business_required": true
+          },
+          {
+              "description": "O Sort Code é um código utilizado para identificação de bancos da Inglaterra e Irlanda.",
+              "required": true,
+              "mask": "999999",
+              "label": "Sort Code",
+              "type": "string",
+              "id": "sort_code",
+              "business_required": true
+          }
+      ],
+      "address_fields": null,
+      "ddi": "+44",
+      "phone_mask": null,
+      "created_at": "2018-03-29T18:22:30.454Z",
+      "updated_at": "2018-03-29T18:25:30.454Z",
+      "is_active": true,
+      "intermedian_bank": [
+          {
+              "description": "",
+              "required": true,
+              "mask": "",
+              "label": "Nome do banco intermediário",
+              "type": "string",
+              "id": "bank_name"
+          },
+          {
+              "description": "",
+              "required": true,
+              "mask": "",
+              "label": "Código SWIFT ou BIC do banco intermediário",
+              "type": "string",
+              "id": "swift_aba"
+          }
+      ],
+      "country_iso_code": "IM",
+      "alpha_three": "IMN",
+      "total_items": "96"
+  },
+  {
+      "id": 150,
+      "name": "Ilhas Cayman",
+      "flag": "https://s3-sa-east-1.amazonaws.com/beecambioimages/countries_svg/cym.svg",
+      "fields": [
+          {
+              "description": "O código SWIFT é um número único e atua como um identificador de instituições financeiras, sem este número não é possível realizar a transação.",
+              "required": true,
+              "mask": "**** **** ?*?*?*",
+              "label": "Código SWIFT/BIC",
+              "type": "string",
+              "id": "swift",
+              "business_required": true
+          },
+          {
+              "description": "É o número que identifica a conta do beneficiário no exterior.",
+              "mask": "*?*?*?*?*?*?*?*?*?*?*?*?*?*?*?*?*?*?*?*?",
+              "required": true,
+              "type": "string",
+              "id": "account",
+              "label": "Número da conta",
+              "business_required": true
+          }
+      ],
+      "address_fields": null,
+      "ddi": "+345",
+      "phone_mask": null,
+      "created_at": "2019-03-08T20:53:19.920Z",
+      "updated_at": "2019-03-08T20:53:19.920Z",
+      "is_active": true,
+      "intermedian_bank": [
+          {
+              "description": "",
+              "required": true,
+              "mask": "",
+              "label": "Nome do banco intermediário",
+              "type": "string",
+              "id": "bank_name"
+          },
+          {
+              "description": "",
+              "required": true,
+              "mask": "",
+              "label": "Código SWIFT ou BIC do banco intermediário",
+              "type": "string",
+              "id": "swift_aba"
+          }
+      ],
+      "country_iso_code": "KY",
+      "alpha_three": "CYM",
+      "total_items": "96"
+  },
+  {
+      "id": 154,
+      "name": "Ilhas Virgens",
+      "flag": "https://s3-sa-east-1.amazonaws.com/beecambioimages/countries_svg/vgb.svg",
+      "fields": [
+          {
+              "description": "O código SWIFT é um número único e atua como um identificador de instituições financeiras, sem este número não é possível realizar a transação.",
+              "required": true,
+              "mask": "**** **** ?*?*?*",
+              "label": "Código SWIFT/BIC",
+              "type": "string",
+              "id": "swift",
+              "business_required": true
+          },
+          {
+              "description": "É o número que identifica a conta do beneficiário no exterior.",
+              "mask": "*?*?*?*?*?*?*?*?*?*?*?*?*?*?*?*?*?*?*?*?",
+              "required": true,
+              "type": "string",
+              "id": "account",
+              "label": "Número da conta",
+              "business_required": true
+          }
+      ],
+      "address_fields": null,
+      "ddi": "+1",
+      "phone_mask": null,
+      "created_at": "2019-03-08T20:53:19.920Z",
+      "updated_at": "2019-03-08T20:53:19.920Z",
+      "is_active": true,
+      "intermedian_bank": [
+          {
+              "description": "",
+              "required": true,
+              "mask": "",
+              "label": "Nome do banco intermediário",
+              "type": "string",
+              "id": "bank_name"
+          },
+          {
+              "description": "",
+              "required": true,
+              "mask": "",
+              "label": "Código SWIFT ou BIC do banco intermediário",
+              "type": "string",
+              "id": "swift_aba"
+          }
+      ],
+      "country_iso_code": "VG",
+      "alpha_three": "VGB",
+      "total_items": "96"
+  },
+  {
+      "id": 48,
+      "name": "Índia",
+      "flag": "https://s3-sa-east-1.amazonaws.com/beecambioimages/countries_svg/ind.svg",
+      "fields": [
+          {
+              "description": "O código SWIFT é um número único e atua como um identificador de instituições financeiras, sem este número não é possível realizar a transação.",
+              "required": true,
+              "mask": "**** **** ?*?*?*",
+              "label": "Código SWIFT/BIC",
+              "type": "string",
+              "id": "swift",
+              "business_required": true
+          },
+          {
+              "description": "É o número que identifica a conta do beneficiário no exterior.",
+              "mask": "*?*?*?*?*?*?*?*?*?*?*?*?*?*?*?*?*?*?*?*?",
+              "required": true,
+              "type": "string",
+              "id": "account",
+              "label": "Número da conta",
+              "business_required": true
+          },
+          {
+              "description": "O IFSC, ou Indian Financial System Code, é um código numérico que facilita operações financeiras que envolvem bancos indianos.",
+              "required": true,
+              "mask": "***********",
+              "label": "IFSC",
+              "type": "string",
+              "id": "ifsc",
+              "business_required": true
+          }
+      ],
+      "address_fields": null,
+      "ddi": "+91",
+      "phone_mask": null,
+      "created_at": "2016-11-11T20:13:38.910Z",
+      "updated_at": "2016-11-11T20:13:38.910Z",
+      "is_active": true,
+      "intermedian_bank": [
+          {
+              "description": "",
+              "required": true,
+              "mask": "",
+              "label": "Nome do banco intermediário",
+              "type": "string",
+              "id": "bank_name"
+          },
+          {
+              "description": "",
+              "required": true,
+              "mask": "",
+              "label": "Código SWIFT ou BIC do banco intermediário",
+              "type": "string",
+              "id": "swift_aba"
+          }
+      ],
+      "country_iso_code": "IN",
+      "alpha_three": "IND",
+      "total_items": "96"
+  },
+  {
+      "id": 72,
+      "name": "Indonésia",
+      "flag": "https://s3-sa-east-1.amazonaws.com/beecambioimages/countries_svg/idn.svg",
+      "fields": [
+          {
+              "description": "O código SWIFT é um número único e atua como um identificador de instituições financeiras, sem este número não é possível realizar a transação.",
+              "required": true,
+              "mask": "**** **** ?*?*?*",
+              "label": "Código SWIFT/BIC",
+              "type": "string",
+              "id": "swift",
+              "business_required": true
+          },
+          {
+              "description": "É o número que identifica a conta do beneficiário no exterior.",
+              "mask": "*?*?*?*?*?*?*?*?*?*?*?*?*?*?*?*?*?*?*?*?",
+              "required": true,
+              "type": "string",
+              "id": "account",
+              "label": "Número da conta",
+              "business_required": true
+          }
+      ],
+      "address_fields": null,
+      "ddi": "+62",
+      "phone_mask": null,
+      "created_at": "2018-03-14T19:24:29.454Z",
+      "updated_at": "2018-03-14T19:24:29.454Z",
+      "is_active": true,
+      "intermedian_bank": [
+          {
+              "description": "",
+              "required": true,
+              "mask": "",
+              "label": "Nome do banco intermediário",
+              "type": "string",
+              "id": "bank_name"
+          },
+          {
+              "description": "",
+              "required": true,
+              "mask": "",
+              "label": "Código SWIFT ou BIC do banco intermediário",
+              "type": "string",
+              "id": "swift_aba"
+          }
+      ],
+      "country_iso_code": "ID",
+      "alpha_three": "IDN",
+      "total_items": "96"
+  },
+  {
+      "id": 37,
+      "name": "Inglaterra",
+      "flag": "https://s3-sa-east-1.amazonaws.com/beecambioimages/countries_svg/gbr.svg",
+      "fields": [
+          {
+              "label": "Código SWIFT/BIC",
+              "business_required": true,
+              "id": "swift",
+              "type": "string",
+              "description": "O código SWIFT é um número único e atua como um identificador de instituições financeiras, sem este número não é possível realizar a transação.",
+              "mask": "**** ****?*?*?*",
+              "required": true
+          },
+          {
+              "label": "IBAN",
+              "business_required": true,
+              "id": "iban",
+              "type": "string",
+              "description": "O IBAN é um código-padrão para identificação de contas bancárias.",
+              "mask": "GB** **** **** **** **** **",
+              "required": true
+          }
+      ],
+      "address_fields": null,
+      "ddi": "+44",
+      "phone_mask": null,
+      "created_at": "2016-05-12T20:18:07.445Z",
+      "updated_at": "2016-05-12T20:18:07.445Z",
+      "is_active": true,
+      "intermedian_bank": [
+          {
+              "description": "",
+              "required": true,
+              "mask": "",
+              "label": "Nome do banco intermediário",
+              "type": "string",
+              "id": "bank_name"
+          },
+          {
+              "description": "",
+              "required": true,
+              "mask": "",
+              "label": "Código SWIFT ou BIC do banco intermediário",
+              "type": "string",
+              "id": "swift_aba"
+          }
+      ],
+      "country_iso_code": "GB",
+      "alpha_three": "GBR",
+      "total_items": "96"
+  },
+  {
+      "id": 19,
+      "name": "Irlanda",
+      "flag": "https://s3-sa-east-1.amazonaws.com/beecambioimages/countries_svg/irl.svg",
+      "fields": [
+          {
+              "description": "O código SWIFT é um número único e atua como um identificador de instituições financeiras, sem este número não é possível realizar a transação.",
+              "required": true,
+              "mask": "**** **** ?*?*?*",
+              "label": "Código SWIFT/BIC",
+              "type": "string",
+              "id": "swift",
+              "business_required": true
+          },
+          {
+              "description": "O IBAN é um código-padrão para identificação de contas bancárias.",
+              "required": true,
+              "label": "IBAN",
+              "type": "string",
+              "id": "iban",
+              "mask": "IE** **** **** **** **** **",
+              "business_required": true
+          }
+      ],
+      "address_fields": null,
+      "ddi": "+353",
+      "phone_mask": null,
+      "created_at": "2016-05-12T20:18:07.445Z",
+      "updated_at": "2016-05-12T20:18:07.445Z",
+      "is_active": true,
+      "intermedian_bank": [
+          {
+              "description": "",
+              "required": true,
+              "mask": "",
+              "label": "Nome do banco intermediário",
+              "type": "string",
+              "id": "bank_name"
+          },
+          {
+              "description": "",
+              "required": true,
+              "mask": "",
+              "label": "Código SWIFT ou BIC do banco intermediário",
+              "type": "string",
+              "id": "swift_aba"
+          }
+      ],
+      "country_iso_code": "IE",
+      "alpha_three": "IRL",
+      "total_items": "96"
+  },
+  {
+      "id": 18,
+      "name": "Islândia",
+      "flag": "https://s3-sa-east-1.amazonaws.com/beecambioimages/countries_svg/isl.svg",
+      "fields": [
+          {
+              "description": "O código SWIFT é um número único e atua como um identificador de instituições financeiras, sem este número não é possível realizar a transação.",
+              "required": true,
+              "mask": "**** **** ?*?*?*",
+              "label": "Código SWIFT/BIC",
+              "type": "string",
+              "id": "swift",
+              "business_required": true
+          },
+          {
+              "description": "O IBAN é um código-padrão para identificação de contas bancárias.",
+              "required": true,
+              "label": "IBAN",
+              "type": "string",
+              "id": "iban",
+              "mask": "IS** **** **** **** **** **** **",
+              "business_required": true
+          }
+      ],
+      "address_fields": null,
+      "ddi": "+354",
+      "phone_mask": null,
+      "created_at": "2016-05-12T20:18:07.445Z",
+      "updated_at": "2016-05-12T20:18:07.445Z",
+      "is_active": true,
+      "intermedian_bank": [
+          {
+              "description": "",
+              "required": true,
+              "mask": "",
+              "label": "Nome do banco intermediário",
+              "type": "string",
+              "id": "bank_name"
+          },
+          {
+              "description": "",
+              "required": true,
+              "mask": "",
+              "label": "Código SWIFT ou BIC do banco intermediário",
+              "type": "string",
+              "id": "swift_aba"
+          }
+      ],
+      "country_iso_code": "IS",
+      "alpha_three": "ISL",
+      "total_items": "96"
+  },
+  {
+      "id": 20,
+      "name": "Israel",
+      "flag": "https://s3-sa-east-1.amazonaws.com/beecambioimages/countries_svg/isr.svg",
+      "fields": [
+          {
+              "description": "O código SWIFT é um número único e atua como um identificador de instituições financeiras, sem este número não é possível realizar a transação.",
+              "required": true,
+              "mask": "**** **** ?*?*?*",
+              "label": "Código SWIFT/BIC",
+              "type": "string",
+              "id": "swift",
+              "business_required": true
+          },
+          {
+              "description": "O IBAN é um código-padrão para identificação de contas bancárias.",
+              "required": true,
+              "label": "IBAN",
+              "type": "string",
+              "id": "iban",
+              "mask": "IL** **** **** **** **** ***",
+              "business_required": true
+          },
+          {
+              "description": "É o número que identifica a conta do beneficiário no exterior.",
+              "mask": "*?*?*?*?*?*?*?*?*?*?*?*?*?*?*?*?*?*?*?*?",
+              "required": true,
+              "type": "string",
+              "id": "account",
+              "label": "Número da conta",
+              "business_required": true
+          },
+          {
+              "description": "O Branch Code é um número, geralmente de 4 dígitos, que identifica a agência da conta.",
+              "required": true,
+              "mask": "**?*?*?*?*?*?*?*?*?",
+              "label": "Branch Code",
+              "type": "string",
+              "id": "branch_code",
+              "business_required": true
+          }
+      ],
+      "address_fields": null,
+      "ddi": "+972",
+      "phone_mask": null,
+      "created_at": "2016-05-12T20:18:07.445Z",
+      "updated_at": "2016-05-12T20:18:07.445Z",
+      "is_active": true,
+      "intermedian_bank": [
+          {
+              "description": "",
+              "required": true,
+              "mask": "",
+              "label": "Nome do banco intermediário",
+              "type": "string",
+              "id": "bank_name"
+          },
+          {
+              "description": "",
+              "required": true,
+              "mask": "",
+              "label": "Código SWIFT ou BIC do banco intermediário",
+              "type": "string",
+              "id": "swift_aba"
+          }
+      ],
+      "country_iso_code": "IL",
+      "alpha_three": "ISR",
+      "total_items": "96"
+  },
+  {
+      "id": 21,
+      "name": "Itália",
+      "flag": "https://s3-sa-east-1.amazonaws.com/beecambioimages/countries_svg/ita.svg",
+      "fields": [
+          {
+              "description": "O código SWIFT é um número único e atua como um identificador de instituições financeiras, sem este número não é possível realizar a transação.",
+              "required": true,
+              "mask": "**** **** ?*?*?*",
+              "label": "Código SWIFT/BIC",
+              "type": "string",
+              "id": "swift",
+              "business_required": true
+          },
+          {
+              "description": "O IBAN é um código-padrão para identificação de contas bancárias.",
+              "required": true,
+              "label": "IBAN",
+              "type": "string",
+              "id": "iban",
+              "mask": "IT** **** **** **** **** **** ***",
+              "business_required": true
+          }
+      ],
+      "address_fields": null,
+      "ddi": "+39",
+      "phone_mask": null,
+      "created_at": "2016-05-12T20:18:07.445Z",
+      "updated_at": "2016-05-12T20:18:07.445Z",
+      "is_active": true,
+      "intermedian_bank": [
+          {
+              "description": "",
+              "required": true,
+              "mask": "",
+              "label": "Nome do banco intermediário",
+              "type": "string",
+              "id": "bank_name"
+          },
+          {
+              "description": "",
+              "required": true,
+              "mask": "",
+              "label": "Código SWIFT ou BIC do banco intermediário",
+              "type": "string",
+              "id": "swift_aba"
+          }
+      ],
+      "country_iso_code": "IT",
+      "alpha_three": "ITA",
+      "total_items": "96"
+  },
+  {
+      "id": 22,
+      "name": "Japão",
+      "flag": "https://s3-sa-east-1.amazonaws.com/beecambioimages/countries_svg/jpn.svg",
+      "fields": [
+          {
+              "description": "O código SWIFT é um número único e atua como um identificador de instituições financeiras, sem este número não é possível realizar a transação.",
+              "required": true,
+              "mask": "**** **** ?*?*?*",
+              "label": "Código SWIFT/BIC",
+              "type": "string",
+              "id": "swift",
+              "business_required": true
+          },
+          {
+              "description": "É o número que identifica a conta do beneficiário no exterior.",
+              "mask": "*?*?*?*?*?*?*?*?*?*?*?*?*?*?*?*?*?*?*?*?",
+              "required": true,
+              "type": "string",
+              "id": "account",
+              "label": "Número da conta",
+              "business_required": true
+          },
+          {
+              "description": "O Branch Code é um número, geralmente de 4 dígitos, que identifica a agência da conta.",
+              "required": true,
+              "mask": "**?*?*?*?*?*?*?*?*?",
+              "label": "Branch Code",
+              "type": "string",
+              "id": "branch_code",
+              "business_required": true
+          },
+          {
+              "description": "Define o tipo da sua conta, se ela é uma Conta Corrente ou Poupança.",
+              "required": true,
+              "mask": "",
+              "label": "Tipo de Conta",
+              "type": "string",
+              "id": "tipo_de_conta",
+              "business_required": true
+          }
+      ],
+      "address_fields": null,
+      "ddi": "+81",
+      "phone_mask": null,
+      "created_at": "2016-05-12T20:18:07.445Z",
+      "updated_at": "2016-05-12T20:18:07.445Z",
+      "is_active": true,
+      "intermedian_bank": [
+          {
+              "description": "",
+              "required": true,
+              "mask": "",
+              "label": "Nome do banco intermediário",
+              "type": "string",
+              "id": "bank_name"
+          },
+          {
+              "description": "",
+              "required": true,
+              "mask": "",
+              "label": "Código SWIFT ou BIC do banco intermediário",
+              "type": "string",
+              "id": "swift_aba"
+          }
+      ],
+      "country_iso_code": "JP",
+      "alpha_three": "JPN",
+      "total_items": "96"
+  },
+  {
+      "id": 90,
+      "name": "Jersey",
+      "flag": "https://s3-sa-east-1.amazonaws.com/beecambioimages/countries_svg/jey.svg",
+      "fields": [
+          {
+              "description": "O código SWIFT é um número único e atua como um identificador de instituições financeiras, sem este número não é possível realizar a transação.",
+              "required": true,
+              "mask": "**** **** ?*?*?*",
+              "label": "Código SWIFT/BIC",
+              "type": "string",
+              "id": "swift",
+              "business_required": true
+          },
+          {
+              "description": "O IBAN é um código-padrão para identificação de contas bancárias.",
+              "required": true,
+              "label": "IBAN",
+              "type": "string",
+              "id": "iban",
+              "mask": "GB** **** **** **** **** **",
+              "business_required": true
+          },
+          {
+              "description": "O Sort Code é um código utilizado para identificação de bancos da Inglaterra e Irlanda.",
+              "required": true,
+              "mask": "999999",
+              "label": "Sort Code",
+              "type": "string",
+              "id": "sort_code",
+              "business_required": true
+          }
+      ],
+      "address_fields": null,
+      "ddi": "+44",
+      "phone_mask": null,
+      "created_at": "2018-03-29T18:22:30.454Z",
+      "updated_at": "2018-03-29T18:25:30.454Z",
+      "is_active": true,
+      "intermedian_bank": [
+          {
+              "description": "",
+              "required": true,
+              "mask": "",
+              "label": "Nome do banco intermediário",
+              "type": "string",
+              "id": "bank_name"
+          },
+          {
+              "description": "",
+              "required": true,
+              "mask": "",
+              "label": "Código SWIFT ou BIC do banco intermediário",
+              "type": "string",
+              "id": "swift_aba"
+          }
+      ],
+      "country_iso_code": "JE",
+      "alpha_three": "JEY",
+      "total_items": "96"
+  },
+  {
+      "id": 152,
+      "name": "Jordânia",
+      "flag": "https://s3-sa-east-1.amazonaws.com/beecambioimages/countries_svg/jor.svg",
+      "fields": [
+          {
+              "description": "O código SWIFT é um número único e atua como um identificador de instituições financeiras, sem este número não é possível realizar a transação.",
+              "required": true,
+              "mask": "**** **** ?*?*?*",
+              "label": "Código SWIFT/BIC",
+              "type": "string",
+              "id": "swift",
+              "business_required": true
+          },
+          {
+              "description": "É o número que identifica a conta do beneficiário no exterior.",
+              "mask": "*?*?*?*?*?*?*?*?*?*?*?*?*?*?*?*?*?*?*?*?",
+              "required": true,
+              "type": "string",
+              "id": "account",
+              "label": "Número da conta",
+              "business_required": true
+          }
+      ],
+      "address_fields": null,
+      "ddi": "+962",
+      "phone_mask": null,
+      "created_at": "2019-03-08T20:53:19.920Z",
+      "updated_at": "2019-03-08T20:53:19.920Z",
+      "is_active": true,
+      "intermedian_bank": [
+          {
+              "description": "",
+              "required": true,
+              "mask": "",
+              "label": "Nome do banco intermediário",
+              "type": "string",
+              "id": "bank_name"
+          },
+          {
+              "description": "",
+              "required": true,
+              "mask": "",
+              "label": "Código SWIFT ou BIC do banco intermediário",
+              "type": "string",
+              "id": "swift_aba"
+          }
+      ],
+      "country_iso_code": "JO",
+      "alpha_three": "JOR",
+      "total_items": "96"
+  },
+  {
+      "id": 73,
+      "name": "Letônia",
+      "flag": "https://s3-sa-east-1.amazonaws.com/beecambioimages/countries_svg/lva.svg",
+      "fields": [
+          {
+              "description": "O código SWIFT é um número único e atua como um identificador de instituições financeiras, sem este número não é possível realizar a transação.",
+              "required": true,
+              "mask": "**** **** ?*?*?*",
+              "label": "Código SWIFT/BIC",
+              "type": "string",
+              "id": "swift",
+              "business_required": true
+          },
+          {
+              "description": "O IBAN é um código-padrão para identificação de contas bancárias.",
+              "required": true,
+              "label": "IBAN",
+              "type": "string",
+              "id": "iban",
+              "mask": "LV** **** **** **** **** *",
+              "business_required": true
+          }
+      ],
+      "address_fields": null,
+      "ddi": "+371",
+      "phone_mask": null,
+      "created_at": "2018-03-14T19:24:29.454Z",
+      "updated_at": "2018-03-14T19:24:29.454Z",
+      "is_active": true,
+      "intermedian_bank": [
+          {
+              "description": "",
+              "required": true,
+              "mask": "",
+              "label": "Nome do banco intermediário",
+              "type": "string",
+              "id": "bank_name"
+          },
+          {
+              "description": "",
+              "required": true,
+              "mask": "",
+              "label": "Código SWIFT ou BIC do banco intermediário",
+              "type": "string",
+              "id": "swift_aba"
+          }
+      ],
+      "country_iso_code": "LV",
+      "alpha_three": "LVA",
+      "total_items": "96"
+  },
+  {
+      "id": 74,
+      "name": "Liechtenstein",
+      "flag": "https://s3-sa-east-1.amazonaws.com/beecambioimages/countries_svg/lie.svg",
+      "fields": [
+          {
+              "description": "O código SWIFT é um número único e atua como um identificador de instituições financeiras, sem este número não é possível realizar a transação.",
+              "required": true,
+              "mask": "**** **** ?*?*?*",
+              "label": "Código SWIFT/BIC",
+              "type": "string",
+              "id": "swift",
+              "business_required": true
+          },
+          {
+              "description": "O IBAN é um código-padrão para identificação de contas bancárias.",
+              "required": true,
+              "label": "IBAN",
+              "type": "string",
+              "id": "iban",
+              "mask": "LI** **** **** **** **** *",
+              "business_required": true
+          }
+      ],
+      "address_fields": null,
+      "ddi": "+423",
+      "phone_mask": null,
+      "created_at": "2018-03-14T19:24:29.454Z",
+      "updated_at": "2018-03-14T19:24:29.454Z",
+      "is_active": true,
+      "intermedian_bank": [
+          {
+              "description": "",
+              "required": true,
+              "mask": "",
+              "label": "Nome do banco intermediário",
+              "type": "string",
+              "id": "bank_name"
+          },
+          {
+              "description": "",
+              "required": true,
+              "mask": "",
+              "label": "Código SWIFT ou BIC do banco intermediário",
+              "type": "string",
+              "id": "swift_aba"
+          }
+      ],
+      "country_iso_code": "LI",
+      "alpha_three": "LIE",
+      "total_items": "96"
+  },
+  {
+      "id": 75,
+      "name": "Lituânia",
+      "flag": "https://s3-sa-east-1.amazonaws.com/beecambioimages/countries_svg/ltu.svg",
+      "fields": [
+          {
+              "description": "O código SWIFT é um número único e atua como um identificador de instituições financeiras, sem este número não é possível realizar a transação.",
+              "required": true,
+              "mask": "**** **** ?*?*?*",
+              "label": "Código SWIFT/BIC",
+              "type": "string",
+              "id": "swift",
+              "business_required": true
+          },
+          {
+              "description": "O IBAN é um código-padrão para identificação de contas bancárias.",
+              "required": true,
+              "label": "IBAN",
+              "type": "string",
+              "id": "iban",
+              "mask": "LT** **** **** **** ****",
+              "business_required": true
+          }
+      ],
+      "address_fields": null,
+      "ddi": "+370",
+      "phone_mask": null,
+      "created_at": "2018-03-14T19:24:29.454Z",
+      "updated_at": "2018-03-14T19:24:29.454Z",
+      "is_active": true,
+      "intermedian_bank": [
+          {
+              "description": "",
+              "required": true,
+              "mask": "",
+              "label": "Nome do banco intermediário",
+              "type": "string",
+              "id": "bank_name"
+          },
+          {
+              "description": "",
+              "required": true,
+              "mask": "",
+              "label": "Código SWIFT ou BIC do banco intermediário",
+              "type": "string",
+              "id": "swift_aba"
+          }
+      ],
+      "country_iso_code": "LT",
+      "alpha_three": "LTU",
+      "total_items": "96"
+  },
+  {
+      "id": 24,
+      "name": "Luxemburgo",
+      "flag": "https://s3-sa-east-1.amazonaws.com/beecambioimages/countries_svg/lux.svg",
+      "fields": [
+          {
+              "description": "O código SWIFT é um número único e atua como um identificador de instituições financeiras, sem este número não é possível realizar a transação.",
+              "required": true,
+              "mask": "**** **** ?*?*?*",
+              "label": "Código SWIFT/BIC",
+              "type": "string",
+              "id": "swift",
+              "business_required": true
+          },
+          {
+              "description": "O IBAN é um código-padrão para identificação de contas bancárias.",
+              "required": true,
+              "label": "IBAN",
+              "type": "string",
+              "id": "iban",
+              "mask": "LU** **** **** **** ****",
+              "business_required": true
+          }
+      ],
+      "address_fields": null,
+      "ddi": "+352",
+      "phone_mask": null,
+      "created_at": "2016-05-12T20:18:07.445Z",
+      "updated_at": "2016-05-12T20:18:07.445Z",
+      "is_active": true,
+      "intermedian_bank": [
+          {
+              "description": "",
+              "required": true,
+              "mask": "",
+              "label": "Nome do banco intermediário",
+              "type": "string",
+              "id": "bank_name"
+          },
+          {
+              "description": "",
+              "required": true,
+              "mask": "",
+              "label": "Código SWIFT ou BIC do banco intermediário",
+              "type": "string",
+              "id": "swift_aba"
+          }
+      ],
+      "country_iso_code": "LU",
+      "alpha_three": "LUX",
+      "total_items": "96"
+  },
+  {
+      "id": 156,
+      "name": "Malásia",
+      "flag": "https://s3-sa-east-1.amazonaws.com/beecambioimages/countries_svg/mys.svg",
+      "fields": [
+          {
+              "description": "O código SWIFT é um número único e atua como um identificador de instituições financeiras, sem este número não é possível realizar a transação.",
+              "required": true,
+              "mask": "**** **** ?*?*?*",
+              "label": "Código SWIFT/BIC",
+              "type": "string",
+              "id": "swift",
+              "business_required": true
+          },
+          {
+              "description": "É o número que identifica a conta do beneficiário no exterior.",
+              "mask": "*?*?*?*?*?*?*?*?*?*?*?*?*?*?*?*?*?*?*?*?",
+              "required": true,
+              "type": "string",
+              "id": "account",
+              "label": "Número da conta",
+              "business_required": true
+          }
+      ],
+      "address_fields": null,
+      "ddi": "+60",
+      "phone_mask": null,
+      "created_at": "2019-03-08T20:53:19.920Z",
+      "updated_at": "2019-03-08T20:53:19.920Z",
+      "is_active": true,
+      "intermedian_bank": [
+          {
+              "description": "",
+              "required": true,
+              "mask": "",
+              "label": "Nome do banco intermediário",
+              "type": "string",
+              "id": "bank_name"
+          },
+          {
+              "description": "",
+              "required": true,
+              "mask": "",
+              "label": "Código SWIFT ou BIC do banco intermediário",
+              "type": "string",
+              "id": "swift_aba"
+          }
+      ],
+      "country_iso_code": "MY",
+      "alpha_three": "MYS",
+      "total_items": "96"
+  },
+  {
+      "id": 49,
+      "name": "Malta",
+      "flag": "https://s3-sa-east-1.amazonaws.com/beecambioimages/countries_svg/mlt.svg",
+      "fields": [
+          {
+              "description": "O código SWIFT é um número único e atua como um identificador de instituições financeiras, sem este número não é possível realizar a transação.",
+              "required": true,
+              "mask": "**** **** ?*?*?*",
+              "label": "Código SWIFT/BIC",
+              "type": "string",
+              "id": "swift",
+              "business_required": true
+          },
+          {
+              "description": "O IBAN é um código-padrão para identificação de contas bancárias.",
+              "required": true,
+              "label": "IBAN",
+              "type": "string",
+              "id": "iban",
+              "mask": "MT** **** **** **** **** **** **** ***",
+              "business_required": true
+          }
+      ],
+      "address_fields": null,
+      "ddi": "+356",
+      "phone_mask": null,
+      "created_at": "2016-12-13T13:01:50.708Z",
+      "updated_at": "2016-12-13T13:01:50.708Z",
+      "is_active": true,
+      "intermedian_bank": [
+          {
+              "description": "",
+              "required": true,
+              "mask": "",
+              "label": "Nome do banco intermediário",
+              "type": "string",
+              "id": "bank_name"
+          },
+          {
+              "description": "",
+              "required": true,
+              "mask": "",
+              "label": "Código SWIFT ou BIC do banco intermediário",
+              "type": "string",
+              "id": "swift_aba"
+          }
+      ],
+      "country_iso_code": "MT",
+      "alpha_three": "MLT",
+      "total_items": "96"
+  },
+  {
+      "id": 59,
+      "name": "Marrocos",
+      "flag": "https://s3-sa-east-1.amazonaws.com/beecambioimages/countries_svg/mar.svg",
+      "fields": [
+          {
+              "description": "O código SWIFT é um número único e atua como um identificador de instituições financeiras, sem este número não é possível realizar a transação.",
+              "required": true,
+              "mask": "**** **** ?*?*?*",
+              "label": "Código SWIFT/BIC",
+              "type": "string",
+              "id": "swift",
+              "business_required": true
+          },
+          {
+              "description": "É o número que identifica a conta do beneficiário no exterior.",
+              "mask": "*?*?*?*?*?*?*?*?*?*?*?*?*?*?*?*?*?*?*?*?*?*?*?*?*?*?*?*?*?*?",
+              "required": true,
+              "type": "string",
+              "id": "account",
+              "label": "Número da conta",
+              "business_required": true
+          }
+      ],
+      "address_fields": null,
+      "ddi": "+212",
+      "phone_mask": null,
+      "created_at": "2016-12-13T13:34:46.277Z",
+      "updated_at": "2016-12-13T13:34:46.277Z",
+      "is_active": true,
+      "intermedian_bank": [
+          {
+              "description": "",
+              "required": true,
+              "mask": "",
+              "label": "Nome do banco intermediário",
+              "type": "string",
+              "id": "bank_name"
+          },
+          {
+              "description": "",
+              "required": true,
+              "mask": "",
+              "label": "Código SWIFT ou BIC do banco intermediário",
+              "type": "string",
+              "id": "swift_aba"
+          }
+      ],
+      "country_iso_code": "MA",
+      "alpha_three": "MAR",
+      "total_items": "96"
+  },
+  {
+      "id": 86,
+      "name": "Martinica",
+      "flag": "https://s3-sa-east-1.amazonaws.com/beecambioimages/countries_svg/mtq.svg",
+      "fields": [
+          {
+              "description": "O código SWIFT é um número único e atua como um identificador de instituições financeiras, sem este número não é possível realizar a transação.",
+              "required": true,
+              "mask": "**** **** ?*?*?*",
+              "label": "Código SWIFT/BIC",
+              "type": "string",
+              "id": "swift",
+              "business_required": true
+          },
+          {
+              "description": "É o número que identifica a conta do beneficiário no exterior.",
+              "mask": "*?*?*?*?*?*?*?*?*?*?*?*?*?*?*?*?*?*?*?*?",
+              "required": true,
+              "type": "string",
+              "id": "account",
+              "label": "Número da conta",
+              "business_required": true
+          },
+          {
+              "description": "O IBAN é um código-padrão para identificação de contas bancárias.",
+              "required": true,
+              "label": "IBAN",
+              "type": "string",
+              "id": "iban",
+              "mask": "FR** **** **** **** **** **** ***",
+              "business_required": true
+          }
+      ],
+      "address_fields": null,
+      "ddi": "+596",
+      "phone_mask": null,
+      "created_at": "2018-03-14T19:24:29.454Z",
+      "updated_at": "2018-03-14T19:24:29.454Z",
+      "is_active": true,
+      "intermedian_bank": [
+          {
+              "description": "",
+              "required": true,
+              "mask": "",
+              "label": "Nome do banco intermediário",
+              "type": "string",
+              "id": "bank_name"
+          },
+          {
+              "description": "",
+              "required": true,
+              "mask": "",
+              "label": "Código SWIFT ou BIC do banco intermediário",
+              "type": "string",
+              "id": "swift_aba"
+          }
+      ],
+      "country_iso_code": "MQ",
+      "alpha_three": "MTQ",
+      "total_items": "96"
+  },
+  {
+      "id": 25,
+      "name": "Mexico",
+      "flag": "https://s3-sa-east-1.amazonaws.com/beecambioimages/countries_svg/mex.svg",
+      "fields": [
+          {
+              "description": "O código SWIFT é um número único e atua como um identificador de instituições financeiras, sem este número não é possível realizar a transação.",
+              "required": true,
+              "mask": "**** **** ?*?*?*",
+              "label": "Código SWIFT/BIC",
+              "type": "string",
+              "id": "swift",
+              "business_required": true
+          },
+          {
+              "description": "É o número que identifica a conta do beneficiário no exterior.",
+              "mask": "*?*?*?*?*?*?*?*?*?*?*?*?*?*?*?*?*?*?*?*?",
+              "required": true,
+              "type": "string",
+              "id": "account",
+              "label": "Número da conta",
+              "business_required": true
+          }
+      ],
+      "address_fields": null,
+      "ddi": "+52",
+      "phone_mask": null,
+      "created_at": "2016-05-12T20:18:07.445Z",
+      "updated_at": "2016-05-12T20:18:07.445Z",
+      "is_active": true,
+      "intermedian_bank": [
+          {
+              "description": "",
+              "required": true,
+              "mask": "",
+              "label": "Nome do banco intermediário",
+              "type": "string",
+              "id": "bank_name"
+          },
+          {
+              "description": "",
+              "required": true,
+              "mask": "",
+              "label": "Código SWIFT ou BIC do banco intermediário",
+              "type": "string",
+              "id": "swift_aba"
+          }
+      ],
+      "country_iso_code": "MX",
+      "alpha_three": "MEX",
+      "total_items": "96"
+  },
+  {
+      "id": 110,
+      "name": "Moçambique",
+      "flag": "https://s3-sa-east-1.amazonaws.com/beecambioimages/countries_svg/moz.svg",
+      "fields": [
+          {
+              "description": "O código SWIFT é um número único e atua como um identificador de instituições financeiras, sem este número não é possível realizar a transação.",
+              "required": true,
+              "mask": "**** **** ?*?*?*",
+              "label": "Código SWIFT/BIC",
+              "type": "string",
+              "id": "swift",
+              "business_required": true
+          },
+          {
+              "description": "É o número que identifica a conta do beneficiário no exterior.",
+              "mask": "*?*?*?*?*?*?*?*?*?*?*?*?*?*?*?*?*?*?*?*?",
+              "required": true,
+              "type": "string",
+              "id": "account",
+              "label": "Número da conta",
+              "business_required": true
+          }
+      ],
+      "address_fields": null,
+      "ddi": "+258",
+      "phone_mask": null,
+      "created_at": "2018-07-17T21:50:16.318Z",
+      "updated_at": "2018-07-17T21:50:16.318Z",
+      "is_active": true,
+      "intermedian_bank": [
+          {
+              "type": "string",
+              "id": "bank_name",
+              "mask": "",
+              "required": true,
+              "description": "",
+              "label": "Nome do banco intermediário"
+          },
+          {
+              "type": "string",
+              "id": "swift_aba",
+              "mask": "",
+              "required": true,
+              "description": "",
+              "label": "Código SWIFT ou BIC do banco intermediário"
+          }
+      ],
+      "country_iso_code": "MZ",
+      "alpha_three": "MOZ",
+      "total_items": "96"
+  },
+  {
+      "id": 159,
+      "name": "Montenegro",
+      "flag": "https://s3-sa-east-1.amazonaws.com/beecambioimages/countries_svg/mne.svg",
+      "fields": [
+          {
+              "description": "O código SWIFT é um número único e atua como um identificador de instituições financeiras, sem este número não é possível realizar a transação.",
+              "required": true,
+              "mask": "**** **** ?*?*?*",
+              "label": "Código SWIFT/BIC",
+              "type": "string",
+              "id": "swift",
+              "business_required": true
+          },
+          {
+              "description": "O IBAN é um código-padrão para identificação de contas bancárias.",
+              "required": true,
+              "label": "IBAN",
+              "type": "string",
+              "id": "iban",
+              "mask": "ME********************",
+              "business_required": true
+          }
+      ],
+      "address_fields": null,
+      "ddi": "+382",
+      "phone_mask": null,
+      "created_at": "2019-03-08T20:53:19.920Z",
+      "updated_at": "2019-03-08T20:53:19.920Z",
+      "is_active": true,
+      "intermedian_bank": [
+          {
+              "description": "",
+              "required": true,
+              "mask": "",
+              "label": "Nome do banco intermediário",
+              "type": "string",
+              "id": "bank_name"
+          },
+          {
+              "description": "",
+              "required": true,
+              "mask": "",
+              "label": "Código SWIFT ou BIC do banco intermediário",
+              "type": "string",
+              "id": "swift_aba"
+          }
+      ],
+      "country_iso_code": "ME",
+      "alpha_three": "MNE",
+      "total_items": "96"
+  },
+  {
+      "id": 76,
+      "name": "Nicarágua",
+      "flag": "https://s3-sa-east-1.amazonaws.com/beecambioimages/countries_svg/nic.svg",
+      "fields": [
+          {
+              "description": "O código SWIFT é um número único e atua como um identificador de instituições financeiras, sem este número não é possível realizar a transação.",
+              "required": true,
+              "mask": "**** **** ?*?*?*",
+              "label": "Código SWIFT/BIC",
+              "type": "string",
+              "id": "swift",
+              "business_required": true
+          },
+          {
+              "description": "É o número que identifica a conta do beneficiário no exterior.",
+              "mask": "*?*?*?*?*?*?*?*?*?*?*?*?*?*?*?*?*?*?*?*?",
+              "required": true,
+              "type": "string",
+              "id": "account",
+              "label": "Número da conta",
+              "business_required": true
+          }
+      ],
+      "address_fields": null,
+      "ddi": "+505",
+      "phone_mask": null,
+      "created_at": "2018-03-14T19:24:29.454Z",
+      "updated_at": "2018-03-14T19:24:29.454Z",
+      "is_active": true,
+      "intermedian_bank": [
+          {
+              "description": "",
+              "required": true,
+              "mask": "",
+              "label": "Nome do banco intermediário",
+              "type": "string",
+              "id": "bank_name"
+          },
+          {
+              "description": "",
+              "required": true,
+              "mask": "",
+              "label": "Código SWIFT ou BIC do banco intermediário",
+              "type": "string",
+              "id": "swift_aba"
+          }
+      ],
+      "country_iso_code": "NI",
+      "alpha_three": "NIC",
+      "total_items": "96"
+  },
+  {
+      "id": 77,
+      "name": "Nigéria",
+      "flag": "https://s3-sa-east-1.amazonaws.com/beecambioimages/countries_svg/nga.svg",
+      "fields": [
+          {
+              "description": "O código SWIFT é um número único e atua como um identificador de instituições financeiras, sem este número não é possível realizar a transação.",
+              "required": true,
+              "mask": "**** **** ?*?*?*",
+              "label": "Código SWIFT/BIC",
+              "type": "string",
+              "id": "swift",
+              "business_required": true
+          },
+          {
+              "description": "É o número que identifica a conta do beneficiário no exterior.",
+              "mask": "*?*?*?*?*?*?*?*?*?*?*?*?*?*?*?*?*?*?*?*?",
+              "required": true,
+              "type": "string",
+              "id": "account",
+              "label": "Número da conta",
+              "business_required": true
+          }
+      ],
+      "address_fields": null,
+      "ddi": "+234",
+      "phone_mask": null,
+      "created_at": "2018-03-14T19:24:29.454Z",
+      "updated_at": "2018-03-14T19:24:29.454Z",
+      "is_active": true,
+      "intermedian_bank": [
+          {
+              "description": "",
+              "required": true,
+              "mask": "",
+              "label": "Nome do banco intermediário",
+              "type": "string",
+              "id": "bank_name"
+          },
+          {
+              "description": "",
+              "required": true,
+              "mask": "",
+              "label": "Código SWIFT ou BIC do banco intermediário",
+              "type": "string",
+              "id": "swift_aba"
+          }
+      ],
+      "country_iso_code": "NG",
+      "alpha_three": "NGA",
+      "total_items": "96"
+  },
+  {
+      "id": 28,
+      "name": "Noruega",
+      "flag": "https://s3-sa-east-1.amazonaws.com/beecambioimages/countries_svg/nor.svg",
+      "fields": [
+          {
+              "description": "O código SWIFT é um número único e atua como um identificador de instituições financeiras, sem este número não é possível realizar a transação.",
+              "required": true,
+              "mask": "**** **** ?*?*?*",
+              "label": "Código SWIFT/BIC",
+              "type": "string",
+              "id": "swift",
+              "business_required": true
+          },
+          {
+              "description": "O IBAN é um código-padrão para identificação de contas bancárias.",
+              "required": true,
+              "label": "IBAN",
+              "type": "string",
+              "id": "iban",
+              "mask": "NO** **** **** ***",
+              "business_required": true
+          }
+      ],
+      "address_fields": null,
+      "ddi": "+47",
+      "phone_mask": null,
+      "created_at": "2016-05-12T20:18:07.445Z",
+      "updated_at": "2016-05-12T20:18:07.445Z",
+      "is_active": true,
+      "intermedian_bank": [
+          {
+              "description": "",
+              "required": true,
+              "mask": "",
+              "label": "Nome do banco intermediário",
+              "type": "string",
+              "id": "bank_name"
+          },
+          {
+              "description": "",
+              "required": true,
+              "mask": "",
+              "label": "Código SWIFT ou BIC do banco intermediário",
+              "type": "string",
+              "id": "swift_aba"
+          }
+      ],
+      "country_iso_code": "NO",
+      "alpha_three": "NOR",
+      "total_items": "96"
+  },
+  {
+      "id": 27,
+      "name": "Nova Zelândia",
+      "flag": "https://s3-sa-east-1.amazonaws.com/beecambioimages/countries_svg/nzl.svg",
+      "fields": [
+          {
+              "description": "O código SWIFT é um número único e atua como um identificador de instituições financeiras, sem este número não é possível realizar a transação.",
+              "required": true,
+              "mask": "**** **** ?*?*?*",
+              "label": "Código SWIFT/BIC",
+              "type": "string",
+              "id": "swift",
+              "business_required": true
+          },
+          {
+              "description": "É o número que identifica a conta do beneficiário no exterior.",
+              "mask": "*?*?*?*?*?*?*?*?*?*?*?*?*?*?*?*?*?*?*?*?",
+              "required": true,
+              "type": "string",
+              "id": "account",
+              "label": "Número da conta",
+              "business_required": true
+          },
+          {
+              "description": "O Branch Code é um número, geralmente de 4 dígitos, que identifica a agência da conta.",
+              "required": true,
+              "mask": "**?*?*?*?*?*?*?*?*?",
+              "label": "Branch Code",
+              "type": "string",
+              "id": "branch_code",
+              "business_required": true
+          }
+      ],
+      "address_fields": null,
+      "ddi": "+64",
+      "phone_mask": null,
+      "created_at": "2016-05-12T20:18:07.445Z",
+      "updated_at": "2016-05-12T20:18:07.445Z",
+      "is_active": true,
+      "intermedian_bank": [
+          {
+              "description": "",
+              "required": true,
+              "mask": "",
+              "label": "Nome do banco intermediário",
+              "type": "string",
+              "id": "bank_name"
+          },
+          {
+              "description": "",
+              "required": true,
+              "mask": "",
+              "label": "Código SWIFT ou BIC do banco intermediário",
+              "type": "string",
+              "id": "swift_aba"
+          }
+      ],
+      "country_iso_code": "NZ",
+      "alpha_three": "NZL",
+      "total_items": "96"
+  },
+  {
+      "id": 50,
+      "name": "Panamá",
+      "flag": "https://s3-sa-east-1.amazonaws.com/beecambioimages/countries_svg/pan.svg",
+      "fields": [
+          {
+              "description": "O código SWIFT é um número único e atua como um identificador de instituições financeiras, sem este número não é possível realizar a transação.",
+              "required": true,
+              "mask": "**** **** ?*?*?*",
+              "label": "Código SWIFT/BIC",
+              "type": "string",
+              "id": "swift",
+              "business_required": true
+          },
+          {
+              "description": "É o número que identifica a conta do beneficiário no exterior.",
+              "mask": "*?*?*?*?*?*?*?*?*?*?*?*?*?*?*?*?*?*?*?*?",
+              "required": true,
+              "type": "string",
+              "id": "account",
+              "label": "Número da conta",
+              "business_required": true
+          }
+      ],
+      "address_fields": null,
+      "ddi": "+507",
+      "phone_mask": null,
+      "created_at": "2016-12-13T13:07:42.889Z",
+      "updated_at": "2016-12-13T13:07:42.889Z",
+      "is_active": true,
+      "intermedian_bank": [
+          {
+              "description": "",
+              "required": true,
+              "mask": "",
+              "label": "Nome do banco intermediário",
+              "type": "string",
+              "id": "bank_name"
+          },
+          {
+              "description": "",
+              "required": true,
+              "mask": "",
+              "label": "Código SWIFT ou BIC do banco intermediário",
+              "type": "string",
+              "id": "swift_aba"
+          }
+      ],
+      "country_iso_code": "PA",
+      "alpha_three": "PAN",
+      "total_items": "96"
+  },
+  {
+      "id": 157,
+      "name": "Paraguai",
+      "flag": "https://s3-sa-east-1.amazonaws.com/beecambioimages/countries_svg/pry.svg",
+      "fields": [
+          {
+              "description": "O código SWIFT é um número único e atua como um identificador de instituições financeiras, sem este número não é possível realizar a transação.",
+              "required": true,
+              "mask": "**** **** ?*?*?*",
+              "label": "Código SWIFT/BIC",
+              "type": "string",
+              "id": "swift",
+              "business_required": true
+          },
+          {
+              "description": "É o número que identifica a conta do beneficiário no exterior.",
+              "mask": "*?*?*?*?*?*?*?*?*?*?*?*?*?*?*?*?*?*?*?*?",
+              "required": true,
+              "type": "string",
+              "id": "account",
+              "label": "Número da conta",
+              "business_required": true
+          }
+      ],
+      "address_fields": null,
+      "ddi": "+595",
+      "phone_mask": null,
+      "created_at": "2019-03-08T20:53:19.920Z",
+      "updated_at": "2019-03-08T20:53:19.920Z",
+      "is_active": true,
+      "intermedian_bank": [
+          {
+              "description": "",
+              "required": true,
+              "mask": "",
+              "label": "Nome do banco intermediário",
+              "type": "string",
+              "id": "bank_name"
+          },
+          {
+              "description": "",
+              "required": true,
+              "mask": "",
+              "label": "Código SWIFT ou BIC do banco intermediário",
+              "type": "string",
+              "id": "swift_aba"
+          }
+      ],
+      "country_iso_code": "PY",
+      "alpha_three": "PRY",
+      "total_items": "96"
+  },
+  {
+      "id": 47,
+      "name": "Peru",
+      "flag": "https://s3-sa-east-1.amazonaws.com/beecambioimages/countries_svg/per.svg",
+      "fields": [
+          {
+              "description": "O código SWIFT é um número único e atua como um identificador de instituições financeiras, sem este número não é possível realizar a transação.",
+              "required": true,
+              "mask": "**** **** ?*?*?*",
+              "label": "Código SWIFT/BIC",
+              "type": "string",
+              "id": "swift",
+              "business_required": true
+          },
+          {
+              "description": "É o número que identifica a conta do beneficiário no exterior.",
+              "mask": "*?*?*?*?*?*?*?*?*?*?*?*?*?*?*?*?*?*?*?*?",
+              "required": true,
+              "type": "string",
+              "id": "account",
+              "label": "Número da conta",
+              "business_required": true
+          }
+      ],
+      "address_fields": null,
+      "ddi": "+51",
+      "phone_mask": null,
+      "created_at": "2016-11-11T20:04:32.356Z",
+      "updated_at": "2016-11-11T20:04:32.356Z",
+      "is_active": true,
+      "intermedian_bank": [
+          {
+              "description": "",
+              "required": true,
+              "mask": "",
+              "label": "Nome do banco intermediário",
+              "type": "string",
+              "id": "bank_name"
+          },
+          {
+              "description": "",
+              "required": true,
+              "mask": "",
+              "label": "Código SWIFT ou BIC do banco intermediário",
+              "type": "string",
+              "id": "swift_aba"
+          }
+      ],
+      "country_iso_code": "PE",
+      "alpha_three": "PER",
+      "total_items": "96"
+  },
+  {
+      "id": 29,
+      "name": "Polônia",
+      "flag": "https://s3-sa-east-1.amazonaws.com/beecambioimages/countries_svg/pol.svg",
+      "fields": [
+          {
+              "description": "O código SWIFT é um número único e atua como um identificador de instituições financeiras, sem este número não é possível realizar a transação.",
+              "required": true,
+              "mask": "**** **** ?*?*?*",
+              "label": "Código SWIFT/BIC",
+              "type": "string",
+              "id": "swift",
+              "business_required": true
+          },
+          {
+              "description": "O IBAN é um código-padrão para identificação de contas bancárias.",
+              "required": true,
+              "label": "IBAN",
+              "type": "string",
+              "id": "iban",
+              "mask": "PL** **** **** **** **** **** ****",
+              "business_required": true
+          }
+      ],
+      "address_fields": null,
+      "ddi": "+48",
+      "phone_mask": null,
+      "created_at": "2016-05-12T20:18:07.445Z",
+      "updated_at": "2016-05-12T20:18:07.445Z",
+      "is_active": true,
+      "intermedian_bank": [
+          {
+              "description": "",
+              "required": true,
+              "mask": "",
+              "label": "Nome do banco intermediário",
+              "type": "string",
+              "id": "bank_name"
+          },
+          {
+              "description": "",
+              "required": true,
+              "mask": "",
+              "label": "Código SWIFT ou BIC do banco intermediário",
+              "type": "string",
+              "id": "swift_aba"
+          }
+      ],
+      "country_iso_code": "PL",
+      "alpha_three": "POL",
+      "total_items": "96"
+  },
+  {
+      "id": 111,
+      "name": "Porto Rico",
+      "flag": "https://s3-sa-east-1.amazonaws.com/beecambioimages/countries_svg/pri.svg",
+      "fields": [
+          {
+              "description": "O código SWIFT é um número único e atua como um identificador de instituições financeiras, sem este número não é possível realizar a transação.",
+              "required": true,
+              "mask": "**** **** ?*?*?*",
+              "label": "Código SWIFT/BIC",
+              "type": "string",
+              "id": "swift",
+              "business_required": true
+          },
+          {
+              "description": "É o número que identifica a conta do beneficiário no exterior.",
+              "mask": "*?*?*?*?*?*?*?*?*?*?*?*?*?*?*?*?*?*?*?*?",
+              "required": true,
+              "type": "string",
+              "id": "account",
+              "label": "Número da conta",
+              "business_required": true
+          }
+      ],
+      "address_fields": null,
+      "ddi": "+1",
+      "phone_mask": null,
+      "created_at": "2018-07-17T21:50:16.319Z",
+      "updated_at": "2018-07-17T21:50:16.319Z",
+      "is_active": true,
+      "intermedian_bank": [
+          {
+              "type": "string",
+              "id": "bank_name",
+              "mask": "",
+              "required": true,
+              "description": "",
+              "label": "Nome do banco intermediário"
+          },
+          {
+              "type": "string",
+              "id": "swift_aba",
+              "mask": "",
+              "required": true,
+              "description": "",
+              "label": "Código SWIFT ou BIC do banco intermediário"
+          }
+      ],
+      "country_iso_code": "PR",
+      "alpha_three": "PRI",
+      "total_items": "96"
+  },
+  {
+      "id": 30,
+      "name": "Portugal",
+      "flag": "https://s3-sa-east-1.amazonaws.com/beecambioimages/countries_svg/prt.svg",
+      "fields": [
+          {
+              "description": "O código SWIFT é um número único e atua como um identificador de instituições financeiras, sem este número não é possível realizar a transação.",
+              "required": true,
+              "mask": "**** **** ?*?*?*",
+              "label": "Código SWIFT/BIC",
+              "type": "string",
+              "id": "swift",
+              "business_required": true
+          },
+          {
+              "description": "O IBAN é um código-padrão para identificação de contas bancárias.",
+              "required": true,
+              "label": "IBAN",
+              "type": "string",
+              "id": "iban",
+              "mask": "PT** **** **** **** **** **** *",
+              "business_required": true
+          }
+      ],
+      "address_fields": null,
+      "ddi": "+351",
+      "phone_mask": null,
+      "created_at": "2016-05-12T20:18:07.445Z",
+      "updated_at": "2016-05-12T20:18:07.445Z",
+      "is_active": true,
+      "intermedian_bank": [
+          {
+              "description": "",
+              "required": true,
+              "mask": "",
+              "label": "Nome do banco intermediário",
+              "type": "string",
+              "id": "bank_name"
+          },
+          {
+              "description": "",
+              "required": true,
+              "mask": "",
+              "label": "Código SWIFT ou BIC do banco intermediário",
+              "type": "string",
+              "id": "swift_aba"
+          }
+      ],
+      "country_iso_code": "PT",
+      "alpha_three": "PRT",
+      "total_items": "96"
+  },
+  {
+      "id": 88,
+      "name": "Quênia",
+      "flag": "https://s3-sa-east-1.amazonaws.com/beecambioimages/countries_svg/ken.svg",
+      "fields": [
+          {
+              "description": "O código SWIFT é um número único e atua como um identificador de instituições financeiras, sem este número não é possível realizar a transação.",
+              "required": true,
+              "mask": "**** **** ?*?*?*",
+              "label": "Código SWIFT/BIC",
+              "type": "string",
+              "id": "swift",
+              "business_required": true
+          },
+          {
+              "description": "É o número que identifica a conta do beneficiário no exterior.",
+              "mask": "",
+              "required": true,
+              "type": "string",
+              "id": "account",
+              "label": "Número da conta",
+              "business_required": true
+          }
+      ],
+      "address_fields": null,
+      "ddi": "+254",
+      "phone_mask": null,
+      "created_at": "2018-03-29T18:22:30.454Z",
+      "updated_at": "2018-03-29T18:25:30.454Z",
+      "is_active": true,
+      "intermedian_bank": [
+          {
+              "description": "",
+              "required": true,
+              "mask": "",
+              "label": "Nome do banco intermediário",
+              "type": "string",
+              "id": "bank_name"
+          },
+          {
+              "description": "",
+              "required": true,
+              "mask": "",
+              "label": "Código SWIFT ou BIC do banco intermediário",
+              "type": "string",
+              "id": "swift_aba"
+          }
+      ],
+      "country_iso_code": "KE",
+      "alpha_three": "KEN",
+      "total_items": "96"
+  },
+  {
+      "id": 78,
+      "name": "República Dominicana",
+      "flag": "https://s3-sa-east-1.amazonaws.com/beecambioimages/countries_svg/dom.svg",
+      "fields": [
+          {
+              "description": "O código SWIFT é um número único e atua como um identificador de instituições financeiras, sem este número não é possível realizar a transação.",
+              "required": true,
+              "mask": "**** **** ?*?*?*",
+              "label": "Código SWIFT/BIC",
+              "type": "string",
+              "id": "swift",
+              "business_required": true
+          },
+          {
+              "description": "É o número que identifica a conta do beneficiário no exterior.",
+              "mask": "*?*?*?*?*?*?*?*?*?*?*?*?*?*?*?*?*?*?*?*?",
+              "required": true,
+              "type": "string",
+              "id": "account",
+              "label": "Número da conta",
+              "business_required": true
+          }
+      ],
+      "address_fields": null,
+      "ddi": "+1",
+      "phone_mask": null,
+      "created_at": "2018-03-14T19:24:29.454Z",
+      "updated_at": "2018-03-14T19:24:29.454Z",
+      "is_active": true,
+      "intermedian_bank": [
+          {
+              "description": "",
+              "required": true,
+              "mask": "",
+              "label": "Nome do banco intermediário",
+              "type": "string",
+              "id": "bank_name"
+          },
+          {
+              "description": "",
+              "required": true,
+              "mask": "",
+              "label": "Código SWIFT ou BIC do banco intermediário",
+              "type": "string",
+              "id": "swift_aba"
+          }
+      ],
+      "country_iso_code": "DO",
+      "alpha_three": "DOM",
+      "total_items": "96"
+  },
+  {
+      "id": 10,
+      "name": "República Tcheca",
+      "flag": "https://s3-sa-east-1.amazonaws.com/beecambioimages/countries_svg/cze.svg",
+      "fields": [
+          {
+              "description": "O código SWIFT é um número único e atua como um identificador de instituições financeiras, sem este número não é possível realizar a transação.",
+              "required": true,
+              "mask": "**** **** ?*?*?*",
+              "label": "Código SWIFT/BIC",
+              "type": "string",
+              "id": "swift",
+              "business_required": true
+          },
+          {
+              "description": "O IBAN é um código-padrão para identificação de contas bancárias.",
+              "required": true,
+              "label": "IBAN",
+              "type": "string",
+              "id": "iban",
+              "mask": "CZ** **** **** **** **** ****",
+              "business_required": true
+          }
+      ],
+      "address_fields": null,
+      "ddi": "+420",
+      "phone_mask": null,
+      "created_at": "2016-05-12T20:18:07.445Z",
+      "updated_at": "2016-05-12T20:18:07.445Z",
+      "is_active": true,
+      "intermedian_bank": [
+          {
+              "description": "",
+              "required": true,
+              "mask": "",
+              "label": "Nome do banco intermediário",
+              "type": "string",
+              "id": "bank_name"
+          },
+          {
+              "description": "",
+              "required": true,
+              "mask": "",
+              "label": "Código SWIFT ou BIC do banco intermediário",
+              "type": "string",
+              "id": "swift_aba"
+          }
+      ],
+      "country_iso_code": "CZ",
+      "alpha_three": "CZE",
+      "total_items": "96"
+  },
+  {
+      "id": 79,
+      "name": "Romênia",
+      "flag": "https://s3-sa-east-1.amazonaws.com/beecambioimages/countries_svg/rou.svg",
+      "fields": [
+          {
+              "description": "O código SWIFT é um número único e atua como um identificador de instituições financeiras, sem este número não é possível realizar a transação.",
+              "required": true,
+              "mask": "**** **** ?*?*?*",
+              "label": "Código SWIFT/BIC",
+              "type": "string",
+              "id": "swift",
+              "business_required": true
+          },
+          {
+              "description": "O IBAN é um código-padrão para identificação de contas bancárias.",
+              "required": true,
+              "label": "IBAN",
+              "type": "string",
+              "id": "iban",
+              "mask": "RO** **** **** **** **** ****",
+              "business_required": true
+          }
+      ],
+      "address_fields": null,
+      "ddi": "+40",
+      "phone_mask": null,
+      "created_at": "2018-03-14T19:24:29.454Z",
+      "updated_at": "2018-03-14T19:24:29.454Z",
+      "is_active": true,
+      "intermedian_bank": [
+          {
+              "description": "",
+              "required": true,
+              "mask": "",
+              "label": "Nome do banco intermediário",
+              "type": "string",
+              "id": "bank_name"
+          },
+          {
+              "description": "",
+              "required": true,
+              "mask": "",
+              "label": "Código SWIFT ou BIC do banco intermediário",
+              "type": "string",
+              "id": "swift_aba"
+          }
+      ],
+      "country_iso_code": "RO",
+      "alpha_three": "ROU",
+      "total_items": "96"
+  },
+  {
+      "id": 46,
+      "name": "Rússia",
+      "flag": "https://s3-sa-east-1.amazonaws.com/beecambioimages/countries_svg/rus.svg",
+      "fields": [
+          {
+              "description": "O código SWIFT é um número único e atua como um identificador de instituições financeiras, sem este número não é possível realizar a transação.",
+              "required": true,
+              "mask": "**** **** ?*?*?*",
+              "label": "Código SWIFT/BIC",
+              "type": "string",
+              "id": "swift",
+              "business_required": true
+          },
+          {
+              "description": "É o número que identifica a conta do beneficiário no exterior.",
+              "mask": "*?*?*?*?*?*?*?*?*?*?*?*?*?*?*?*?*?*?*?*?",
+              "required": true,
+              "type": "string",
+              "id": "account",
+              "label": "Número da conta",
+              "business_required": true
+          }
+      ],
+      "address_fields": null,
+      "ddi": "+7",
+      "phone_mask": null,
+      "created_at": "2016-11-11T20:03:20.935Z",
+      "updated_at": "2016-11-11T20:03:20.935Z",
+      "is_active": true,
+      "intermedian_bank": [
+          {
+              "description": "",
+              "required": true,
+              "mask": "",
+              "label": "Nome do banco intermediário",
+              "type": "string",
+              "id": "bank_name"
+          },
+          {
+              "description": "",
+              "required": true,
+              "mask": "",
+              "label": "Código SWIFT ou BIC do banco intermediário",
+              "type": "string",
+              "id": "swift_aba"
+          }
+      ],
+      "country_iso_code": "RU",
+      "alpha_three": "RUS",
+      "total_items": "96"
+  },
+  {
+      "id": 34,
+      "name": "Suécia",
+      "flag": "https://s3-sa-east-1.amazonaws.com/beecambioimages/countries_svg/swe.svg",
+      "fields": [
+          {
+              "description": "O código SWIFT é um número único e atua como um identificador de instituições financeiras, sem este número não é possível realizar a transação.",
+              "required": true,
+              "mask": "**** **** ?*?*?*",
+              "label": "Código SWIFT/BIC",
+              "type": "string",
+              "id": "swift",
+              "business_required": true
+          },
+          {
+              "description": "O IBAN é um código-padrão para identificação de contas bancárias.",
+              "required": true,
+              "label": "IBAN",
+              "type": "string",
+              "id": "iban",
+              "mask": "SE** **** **** **** **** ****",
+              "business_required": true
+          }
+      ],
+      "address_fields": null,
+      "ddi": "+46",
+      "phone_mask": null,
+      "created_at": "2016-05-12T20:18:07.445Z",
+      "updated_at": "2016-05-12T20:18:07.445Z",
+      "is_active": true,
+      "intermedian_bank": [
+          {
+              "description": "",
+              "required": true,
+              "mask": "",
+              "label": "Nome do banco intermediário",
+              "type": "string",
+              "id": "bank_name"
+          },
+          {
+              "description": "",
+              "required": true,
+              "mask": "",
+              "label": "Código SWIFT ou BIC do banco intermediário",
+              "type": "string",
+              "id": "swift_aba"
+          }
+      ],
+      "country_iso_code": "SE",
+      "alpha_three": "SWE",
+      "total_items": "96"
+  },
+  {
+      "id": 35,
+      "name": "Suíça",
+      "flag": "https://s3-sa-east-1.amazonaws.com/beecambioimages/countries_svg/swi.svg",
+      "fields": [
+          {
+              "description": "O código SWIFT é um número único e atua como um identificador de instituições financeiras, sem este número não é possível realizar a transação.",
+              "required": true,
+              "mask": "**** **** ?*?*?*",
+              "label": "Código SWIFT/BIC",
+              "type": "string",
+              "id": "swift",
+              "business_required": true
+          },
+          {
+              "description": "O IBAN é um código-padrão para identificação de contas bancárias.",
+              "required": true,
+              "label": "IBAN",
+              "type": "string",
+              "id": "iban",
+              "mask": "CH** **** **** **** **** *",
+              "business_required": true
+          }
+      ],
+      "address_fields": null,
+      "ddi": "+41",
+      "phone_mask": null,
+      "created_at": "2016-05-12T20:18:07.445Z",
+      "updated_at": "2016-05-12T20:18:07.445Z",
+      "is_active": true,
+      "intermedian_bank": [
+          {
+              "description": "",
+              "required": true,
+              "mask": "",
+              "label": "Nome do banco intermediário",
+              "type": "string",
+              "id": "bank_name"
+          },
+          {
+              "description": "",
+              "required": true,
+              "mask": "",
+              "label": "Código SWIFT ou BIC do banco intermediário",
+              "type": "string",
+              "id": "swift_aba"
+          }
+      ],
+      "country_iso_code": "CH",
+      "alpha_three": "CHE",
+      "total_items": "96"
+  },
+  {
+      "id": 52,
+      "name": "Tailândia",
+      "flag": "https://s3-sa-east-1.amazonaws.com/beecambioimages/countries_svg/tha.svg",
+      "fields": [
+          {
+              "description": "O código SWIFT é um número único e atua como um identificador de instituições financeiras, sem este número não é possível realizar a transação.",
+              "required": true,
+              "mask": "**** **** ?*?*?*",
+              "label": "Código SWIFT/BIC",
+              "type": "string",
+              "id": "swift",
+              "business_required": true
+          },
+          {
+              "description": "É o número que identifica a conta do beneficiário no exterior.",
+              "mask": "*?*?*?*?*?*?*?*?*?*?*?*?*?*?*?*?*?*?*?*?",
+              "required": true,
+              "type": "string",
+              "id": "account",
+              "label": "Número da conta",
+              "business_required": true
+          },
+          {
+              "description": "O Branch Code é um número, geralmente de 4 dígitos, que identifica a agência da conta.",
+              "required": true,
+              "mask": "**?*?*?*?*?*?*?*?*?",
+              "label": "Branch Code",
+              "type": "string",
+              "id": "branch_code",
+              "business_required": true
+          }
+      ],
+      "address_fields": null,
+      "ddi": "+66",
+      "phone_mask": null,
+      "created_at": "2016-12-13T13:15:58.691Z",
+      "updated_at": "2016-12-13T13:15:58.691Z",
+      "is_active": true,
+      "intermedian_bank": [
+          {
+              "description": "",
+              "required": true,
+              "mask": "",
+              "label": "Nome do banco intermediário",
+              "type": "string",
+              "id": "bank_name"
+          },
+          {
+              "description": "",
+              "required": true,
+              "mask": "",
+              "label": "Código SWIFT ou BIC do banco intermediário",
+              "type": "string",
+              "id": "swift_aba"
+          }
+      ],
+      "country_iso_code": "TH",
+      "alpha_three": "THA",
+      "total_items": "96"
+  },
+  {
+      "id": 80,
+      "name": "Taiwan",
+      "flag": "https://s3-sa-east-1.amazonaws.com/beecambioimages/countries_svg/twn.svg",
+      "fields": [
+          {
+              "description": "O código SWIFT é um número único e atua como um identificador de instituições financeiras, sem este número não é possível realizar a transação.",
+              "required": true,
+              "mask": "**** **** ?*?*?*",
+              "label": "Código SWIFT/BIC",
+              "type": "string",
+              "id": "swift",
+              "business_required": true
+          },
+          {
+              "description": "É o número que identifica a conta do beneficiário no exterior.",
+              "mask": "*?*?*?*?*?*?*?*?*?*?*?*?*?*?*?*?*?*?*?*?",
+              "required": true,
+              "type": "string",
+              "id": "account",
+              "label": "Número da conta",
+              "business_required": true
+          }
+      ],
+      "address_fields": null,
+      "ddi": "+886",
+      "phone_mask": null,
+      "created_at": "2018-03-14T19:24:29.454Z",
+      "updated_at": "2018-03-14T19:24:29.454Z",
+      "is_active": true,
+      "intermedian_bank": [
+          {
+              "description": "",
+              "required": true,
+              "mask": "",
+              "label": "Nome do banco intermediário",
+              "type": "string",
+              "id": "bank_name"
+          },
+          {
+              "description": "",
+              "required": true,
+              "mask": "",
+              "label": "Código SWIFT ou BIC do banco intermediário",
+              "type": "string",
+              "id": "swift_aba"
+          }
+      ],
+      "country_iso_code": "TW",
+      "alpha_three": "TWN",
+      "total_items": "96"
+  },
+  {
+      "id": 158,
+      "name": "Tanzânia",
+      "flag": "https://s3-sa-east-1.amazonaws.com/beecambioimages/countries_svg/tza.svg",
+      "fields": [
+          {
+              "description": "O código SWIFT é um número único e atua como um identificador de instituições financeiras, sem este número não é possível realizar a transação.",
+              "required": true,
+              "mask": "**** **** ?*?*?*",
+              "label": "Código SWIFT/BIC",
+              "type": "string",
+              "id": "swift",
+              "business_required": true
+          },
+          {
+              "description": "É o número que identifica a conta do beneficiário no exterior.",
+              "mask": "*?*?*?*?*?*?*?*?*?*?*?*?*?*?*?*?*?*?*?*?",
+              "required": true,
+              "type": "string",
+              "id": "account",
+              "label": "Número da conta",
+              "business_required": true
+          }
+      ],
+      "address_fields": null,
+      "ddi": "+255",
+      "phone_mask": null,
+      "created_at": "2019-03-07T15:23:16.442Z",
+      "updated_at": "2019-03-07T15:23:16.442Z",
+      "is_active": true,
+      "intermedian_bank": [
+          {
+              "description": "",
+              "required": true,
+              "mask": "",
+              "label": "Nome do banco intermediário",
+              "type": "string",
+              "id": "bank_name"
+          },
+          {
+              "description": "",
+              "required": true,
+              "mask": "",
+              "label": "Código SWIFT ou BIC do banco intermediário",
+              "type": "string",
+              "id": "swift_aba"
+          }
+      ],
+      "country_iso_code": "TZ",
+      "alpha_three": "TZA",
+      "total_items": "96"
+  },
+  {
+      "id": 36,
+      "name": "Turquia",
+      "flag": "https://s3-sa-east-1.amazonaws.com/beecambioimages/countries_svg/tur.svg",
+      "fields": [
+          {
+              "description": "O código SWIFT é um número único e atua como um identificador de instituições financeiras, sem este número não é possível realizar a transação.",
+              "required": true,
+              "mask": "**** **** ?*?*?*",
+              "label": "Código SWIFT/BIC",
+              "type": "string",
+              "id": "swift",
+              "business_required": true
+          },
+          {
+              "description": "O IBAN é um código-padrão para identificação de contas bancárias.",
+              "required": true,
+              "label": "IBAN",
+              "type": "string",
+              "id": "iban",
+              "mask": "TR** **** **** **** **** **** **",
+              "business_required": true
+          }
+      ],
+      "address_fields": null,
+      "ddi": "+90",
+      "phone_mask": null,
+      "created_at": "2016-05-12T20:18:07.445Z",
+      "updated_at": "2016-05-12T20:18:07.445Z",
+      "is_active": true,
+      "intermedian_bank": [
+          {
+              "description": "",
+              "required": true,
+              "mask": "",
+              "label": "Nome do banco intermediário",
+              "type": "string",
+              "id": "bank_name"
+          },
+          {
+              "description": "",
+              "required": true,
+              "mask": "",
+              "label": "Código SWIFT ou BIC do banco intermediário",
+              "type": "string",
+              "id": "swift_aba"
+          }
+      ],
+      "country_iso_code": "TR",
+      "alpha_three": "TUR",
+      "total_items": "96"
+  },
+  {
+      "id": 41,
+      "name": "Uruguai",
+      "flag": "https://s3-sa-east-1.amazonaws.com/beecambioimages/countries_svg/ury.svg",
+      "fields": [
+          {
+              "description": "O código SWIFT é um número único e atua como um identificador de instituições financeiras, sem este número não é possível realizar a transação.",
+              "required": true,
+              "mask": "**** **** ?*?*?*",
+              "label": "Código SWIFT/BIC",
+              "type": "string",
+              "id": "swift",
+              "business_required": true
+          },
+          {
+              "description": "É o número que identifica a conta do beneficiário no exterior.",
+              "mask": "*?*?*?*?*?*?*?*?*?*?*?*?*?*?*?*?*?*?*?*?",
+              "required": true,
+              "type": "string",
+              "id": "account",
+              "label": "Número da conta",
+              "business_required": true
+          }
+      ],
+      "address_fields": null,
+      "ddi": "+598",
+      "phone_mask": null,
+      "created_at": "2016-09-08T18:31:57.044Z",
+      "updated_at": "2016-09-08T18:31:57.044Z",
+      "is_active": true,
+      "intermedian_bank": [
+          {
+              "description": "",
+              "required": true,
+              "mask": "",
+              "label": "Nome do banco intermediário",
+              "type": "string",
+              "id": "bank_name"
+          },
+          {
+              "description": "",
+              "required": true,
+              "mask": "",
+              "label": "Código SWIFT ou BIC do banco intermediário",
+              "type": "string",
+              "id": "swift_aba"
+          }
+      ],
+      "country_iso_code": "UY",
+      "alpha_three": "URY",
+      "total_items": "96"
+  },
+  {
+      "id": 81,
+      "name": "Vietnã",
+      "flag": "https://s3-sa-east-1.amazonaws.com/beecambioimages/countries_svg/vnm.svg",
+      "fields": [
+          {
+              "description": "O código SWIFT é um número único e atua como um identificador de instituições financeiras, sem este número não é possível realizar a transação.",
+              "required": true,
+              "mask": "**** **** ?*?*?*",
+              "label": "Código SWIFT/BIC",
+              "type": "string",
+              "id": "swift",
+              "business_required": true
+          },
+          {
+              "description": "É o número que identifica a conta do beneficiário no exterior.",
+              "mask": "*?*?*?*?*?*?*?*?*?*?*?*?*?*?*?*?*?*?*?*?",
+              "required": true,
+              "type": "string",
+              "id": "account",
+              "label": "Número da conta",
+              "business_required": true
+          },
+          {
+              "description": "O Branch Code é um número, geralmente de 4 dígitos, que identifica a agência da conta.",
+              "required": true,
+              "mask": "**?*?*?*?*?*?*?*?*?",
+              "label": "Branch Code",
+              "type": "string",
+              "id": "branch_code",
+              "business_required": true
+          }
+      ],
+      "address_fields": null,
+      "ddi": "+84",
+      "phone_mask": null,
+      "created_at": "2018-03-14T19:24:29.454Z",
+      "updated_at": "2018-03-14T19:24:29.454Z",
+      "is_active": true,
+      "intermedian_bank": [
+          {
+              "description": "",
+              "required": true,
+              "mask": "",
+              "label": "Nome do banco intermediário",
+              "type": "string",
+              "id": "bank_name"
+          },
+          {
+              "description": "",
+              "required": true,
+              "mask": "",
+              "label": "Código SWIFT ou BIC do banco intermediário",
+              "type": "string",
+              "id": "swift_aba"
+          }
+      ],
+      "country_iso_code": "VN",
+      "alpha_three": "VNM",
+      "total_items": "96"
+  }
+]
