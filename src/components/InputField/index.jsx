@@ -4,9 +4,9 @@ import { InputContainer, LabelStyled ,InputStyled } from "./styles.js";
 const InputField = ({ label, type, id, register, errors }) => {
   return (
     <InputContainer>
-      <InputStyled placeholder=" " type={type} id={id} {...register(id)} />
-      <LabelStyled htmlFor={id}>{label}</LabelStyled>
       {errors[id] && <span>{errors[id].message}</span>}
+      <InputStyled error={errors[id]} placeholder=" " type={type} id={id} {...register(id)} />
+      <LabelStyled error={errors[id]} htmlFor={id}>{label}</LabelStyled>
     </InputContainer>
   );
 };
