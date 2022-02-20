@@ -1,10 +1,10 @@
 import React from "react";
-import styles from "./styles.module.scss";
+import { FormContainer } from "./styles";
 
 export default function Form({ children, handleSubmit, }) {
   return (
-    <form onSubmit={handleSubmit} className={styles.FormContainer}>
+    <FormContainer onSubmit={handleSubmit} >
       {children}
-    </form>
+    </FormContainer>
   );
 }
