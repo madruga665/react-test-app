@@ -9,6 +9,7 @@ import { schema } from "../../validate/schema";
 import Button from "../../components/Button";
 import { useState } from "react";
 import ProfileCard from "../../components/ProfileCard";
+import Header from "../../components/Header";
 
 
 const FormsPage = () => {
@@ -18,12 +19,11 @@ const FormsPage = () => {
   });
   const onSubmit = (data) => {
     setCards([...cards, data])
-    console.log(data);
     reset()
   }
   return (
     <div className={styles.FormsPageContainer}>
-      <h2>Formulário</h2>
+      <Header title='Cartões' link1='/' linkTitle1='Home' link2='/cards' linkTitle2='Cartões' />
       <Form handleSubmit={handleSubmit(onSubmit)}>
         <InputField id='name' label='Nome' type='text' register={register} errors={errors} />
         <InputField id='email' label='Email' type='email' register={register} errors={errors} />

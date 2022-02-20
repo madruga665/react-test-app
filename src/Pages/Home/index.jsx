@@ -1,11 +1,12 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import Header from "../../components/Header";
 import { HomeContainer, LinksContainer } from "./styles";
 
 const Home = () => {
   return (
     <HomeContainer>
-      <h1>Meu Super app pra testar libs</h1>
+      <Header title='Meu super app para testar libs'/>
       <LinksContainer>
         <Link to='/cards'>Cards</Link>
         <Link to='/form'>Form</Link>

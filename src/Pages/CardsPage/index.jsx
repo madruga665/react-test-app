@@ -1,11 +1,12 @@
 import React from "react";
+import Header from "../../components/Header";
 import ProfileCard from "../../components/ProfileCard/";
 import styles from "./styles.module.scss";
 
 const CardsPage = () => {
   return (
     <section className={styles.CardsPageContainer}>
-      <h2>Cartões</h2>
+      <Header title='Cartões' link1='/' linkTitle1='Home' link2='/form' linkTitle2='Formulário' />
       <div className={styles.CardsContainer}>
         <ProfileCard
           CardType='DarkProfileCard'
