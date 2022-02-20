@@ -2,6 +2,7 @@ import { Routes, Route } from "react-router";
 import Home from "./Pages/Home";
 import CardsPage from "./Pages/CardsPage";
 import FormsPage from "./Pages/FormsPage";
+import Footer from "./components/Footer";
 
 const App = () => {
   return (

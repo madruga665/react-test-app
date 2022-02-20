@@ -10,6 +10,7 @@ import Button from "../../components/Button";
 import { useState } from "react";
 import ProfileCard from "../../components/ProfileCard";
 import Header from "../../components/Header";
+import Footer from "../../components/Footer";
 
 
 const FormsPage = () => {
@@ -45,6 +46,7 @@ const FormsPage = () => {
       />
         ))}
       </section>
+      <Footer />
     </div>
   );
 };

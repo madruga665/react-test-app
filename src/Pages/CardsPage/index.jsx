@@ -1,4 +1,5 @@
 import React from "react";
+import Footer from "../../components/Footer";
 import Header from "../../components/Header";
 import ProfileCard from "../../components/ProfileCard/";
 import styles from "./styles.module.scss";
@@ -25,6 +26,7 @@ const CardsPage = () => {
           phone='(13) 98179-7296'
         />
       </div>
+      <Footer />
     </section>
   );
 };
