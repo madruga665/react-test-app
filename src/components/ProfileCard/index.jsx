@@ -1,15 +1,15 @@
 import React from "react";
-import styles from "./styles.module.scss";
+import { ProfileCardContainer } from "./styles";
 
-export default function ProfileCard({ avatar, name, phone, email, address, CardType,}) {
+export default function ProfileCard({ avatar, name, phone, email, address, CardType }) {
   return (
-    <div className={`${styles.ProfileCard} ${styles[CardType]}`}>
+    <ProfileCardContainer>
       <h2>{CardType}</h2>
       <img src={avatar} alt={name} width='100px' />
-      <p>Name: {name}</p>
-      <p>Phone: {phone}</p>
+      <p>Nome: {name}</p>
+      <p>Telefone: {phone}</p>
       <p>Email: {email}</p>
-      <p>Address: {address}</p>
-    </div>
+      <p>Endereço: {address}</p>
+    </ProfileCardContainer>
   );
 }

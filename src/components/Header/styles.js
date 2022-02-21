@@ -2,7 +2,6 @@ import styled from "styled-components";
 import { Colors } from "../../styles/variables";
 
 export const HeaderContainer = styled.header`
-  box-sizing: border-box;
   display: flex;
   justify-content: space-between;
   padding: 0 20px;

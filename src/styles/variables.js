@@ -4,4 +4,5 @@ export const Colors = {
   concret: '#95a5a6',
   red: '#e74c3c',
   pageBackground: '#ecf0f1',
+  white: '#fff',
 }

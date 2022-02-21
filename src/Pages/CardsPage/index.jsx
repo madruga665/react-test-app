@@ -2,13 +2,13 @@ import React from "react";
 import Footer from "../../components/Footer";
 import Header from "../../components/Header";
 import ProfileCard from "../../components/ProfileCard/";
-import styles from "./styles.module.scss";
+import { CardsContainer, CardsPageContainer } from "./styles";
 
 const CardsPage = () => {
   return (
-    <section className={styles.CardsPageContainer}>
+    <CardsPageContainer>
       <Header title='Cartões' link1='/' linkTitle1='Home' link2='/form' linkTitle2='Formulário' />
-      <div className={styles.CardsContainer}>
+      <CardsContainer>
         <ProfileCard
           CardType='DarkProfileCard'
           address='Rua Quinze, nº 406, Vila Zilda, Guarujá - SP'
@@ -16,6 +16,7 @@ const CardsPage = () => {
           email='madruga665@hotmail.com'
           name='Madruga'
           phone='(13) 98179-7296'
+          dark
         />
         <ProfileCard
           CardType='LightProfileCard'
@@ -25,9 +26,9 @@ const CardsPage = () => {
           name='Madruga'
           phone='(13) 98179-7296'
         />
-      </div>
+      </CardsContainer>
       <Footer />
-    </section>
+    </CardsPageContainer>
   );
 };
 
