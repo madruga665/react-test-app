@@ -9,8 +9,8 @@ const Home = () => {
       <HomeContainer>
         <Header title='Meu super app para testar libs' />
         <LinksContainer>
-          <Link to='/cards'>Cards</Link>
-          <Link to='/form'>Form</Link>
+          <Link to='/cards'>Cartões</Link>
+          <Link to='/form'>Formulário</Link>
         </LinksContainer>
         <Footer/>
       </HomeContainer>
