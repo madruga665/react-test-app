@@ -1,4 +1,6 @@
-.FormsPageContainer {
+import styled from 'styled-components';
+
+export const FormsPageContainer = styled.section`
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -10,12 +12,12 @@
     color: red;
     font-size: smaller;
   }
-}
+`;
 
-.CardsContainer {
+export const CardsContainer = styled.section`
   display: flex;
   justify-content: flex-start;
   margin-right: 25px;
   width: 100%;
   margin: 25px;
-}
+`;

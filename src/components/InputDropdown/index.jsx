@@ -7,7 +7,9 @@ const InputDropdown = ({ register }) => {
     <InputDropdownContainer>
       <select {...register("país")}>
         {data.map((item) => (
-          <option key={item.id}>{item.name}</option>
+          <option key={item.id}>
+            {item.name}
+          </option>
         ))}
       </select>
     </InputDropdownContainer>
