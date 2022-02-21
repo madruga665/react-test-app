@@ -3,7 +3,7 @@ import { Colors } from '../../styles/variables';
 
 export const FooterContainer = styled.footer`
   width: 100%;
-  height: 200px;
+  height: 150px;
   background: ${Colors.primaryBlue};
   display: flex;
   justify-content: center;
