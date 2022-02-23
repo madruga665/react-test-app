@@ -1,7 +1,10 @@
-import React from "react";
 import { ButtonStyled } from "./styles";
 
-const Button = ({ title }) => {
+interface IPropsButton {
+  title: string;
+}
+
+const Button = ({ title }: IPropsButton) => {
   return <ButtonStyled>{title}</ButtonStyled>;
 };
 

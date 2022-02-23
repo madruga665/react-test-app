@@ -1,12 +1,15 @@
 import React from "react";
-
 import ProfileCard from "./index";
+import readme from "./readme.mdx";
 
 export default {
   title: "Cards/ProfileCard",
   component: ProfileCard,
   parameters: {
     layout: "fullscreen",
+    docs: {
+      page: readme,
+    }
   },
 };
 

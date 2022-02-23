@@ -21,6 +21,7 @@ const FormsPage = () => {
   const { register, handleSubmit, reset, formState:{ errors }, } = useForm({
     resolver: yupResolver(schema)
   });
+  
   const onSubmit = (data) => {
     setCards([...cards, {...data, phone: phoneValue}])
     console.log(data)

@@ -4,13 +4,13 @@ import CardsPage from "./Pages/CardsPage";
 import FormsPage from "./Pages/FormsPage";
 import { GlobalStyle } from "./styles/GlobalStyle";
 
-const App = () => {
+const App: React.FC = () => {
   return (
     <>
       <Routes>
-        <Route path='/' element={<Home />} exact />
-        <Route path='/cards' element={<CardsPage />} exact />
-        <Route path='/form' element={<FormsPage />} exact />
+        <Route path='/' element={<Home />} />
+        <Route path='/cards' element={<CardsPage />} />
+        <Route path='/form' element={<FormsPage />} />
       </Routes>
       <GlobalStyle />
     </>
