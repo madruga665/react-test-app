@@ -1,3 +1,4 @@
+import MaterialCard from "components/MaterialCard";
 import React from "react";
 import Footer from "../../components/Footer";
 import Header from "../../components/Header";
@@ -26,6 +27,7 @@ const CardsPage = () => {
           name='Madruga'
           phone='(13) 98179-7296'
         />
+        <MaterialCard avatar='https://github.com/madruga665.png' name='Madruga' position="Desenvolvedor Web" />
       </CardsContainer>
       <Footer />
     </CardsPageContainer>
