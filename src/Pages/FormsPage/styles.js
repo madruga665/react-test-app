@@ -1,4 +1,5 @@
-import styled from 'styled-components';
+import styled from "styled-components";
+import { Colors } from "styles/variables";
 
 export const FormsPageContainer = styled.section`
   display: flex;
@@ -16,8 +17,13 @@ export const FormsPageContainer = styled.section`
 
 export const CardsContainer = styled.section`
   display: flex;
-  justify-content: flex-start;
-  margin-right: 25px;
+  justify-content: ${(props) => (props.cards.length > 0 ? "flex-start" : "center")};
+  padding: 25px;
   width: 100%;
-  margin: 25px;
+`;
+
+export const NotCardsMessage = styled.p`
+  color: ${Colors.wetAsphalt};
+  font-size: 1.5rem;
+  font-weight: bold;
 `;

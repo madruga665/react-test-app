@@ -8,7 +8,7 @@ interface IFormProps {
 export default function Form({ children, handleSubmit, }: IFormProps) {
   return (
     <FormContainer onSubmit={handleSubmit} >
-      <h2>Criar novo cartão</h2>
+      <h2>Criar novo card</h2>
       {children}
     </FormContainer>
   );
