@@ -1,5 +1,4 @@
 import styled from "styled-components";
-import { Colors } from "../../styles/variables";
 
 export const InputDropdownContainer = styled.div`
   display: flex;
@@ -10,7 +9,7 @@ export const InputDropdownContainer = styled.div`
   select {
     height: 40px;
     border: none;
-    border-bottom: 2px solid ${Colors.concret};
+    border-bottom: 2px solid ${props => props.theme.colors.concret};
     background: transparent;
     padding: 0.5rem;
   }

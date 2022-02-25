@@ -1,5 +1,4 @@
 import styled from "styled-components";
-import { Colors } from "../../styles/variables";
 
 export const HeaderContainer = styled.header`
   display: flex;
@@ -11,7 +10,7 @@ export const HeaderContainer = styled.header`
   background-color: #fff;
   box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
   h1 {
-    color: ${Colors.primaryBlue};
+    color: ${props => props.theme.colors.primaryBlue};
   }
 `;
 

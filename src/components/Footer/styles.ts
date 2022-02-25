@@ -1,10 +1,9 @@
 import styled from 'styled-components';
-import { Colors } from '../../styles/variables';
 
 export const FooterContainer = styled.footer`
   width: 100%;
   height: 150px;
-  background: ${Colors.primaryBlue};
+  background: ${props => props.theme.colors.primaryBlue};
   display: flex;
   justify-content: center;
   align-items: center;

@@ -1,5 +1,4 @@
 import styled from "styled-components";
-import { Colors } from "../../styles/variables";
 
 export const InputContainer = styled.div`
   position: relative;
@@ -16,8 +15,8 @@ export const InputStyled = styled.input`
   border-bottom: 2px solid;
   font-size: 1rem;
   transition: 500ms;
-  color: ${Colors.primaryBlue};
-  border-color: ${(props) => (props.onError ? Colors.red : Colors.concret)};
+  color: ${props => props.theme.colors.primaryBlue};
+  border-color: ${(props) => (props.onError ? props.theme.colors.red : props.theme.colors.concret)};
 
   &::placeholder {
     color: transparent;
@@ -25,7 +24,7 @@ export const InputStyled = styled.input`
 
   &:focus {
     outline: none;
-    border-color: ${Colors.primaryBlue};
+    border-color: ${props => props.theme.colors.primaryBlue};
   }
 `;
 
@@ -34,17 +33,17 @@ export const LabelStyled = styled.label`
   position: absolute;
   pointer-events: none;
   top: 10px;
-  color: ${(props) => (props.onError ? Colors.red : Colors.wetAsphalt)};
+  color: ${(props) => (props.onError ? props.theme.colors.red : props.theme.colors.wetAsphalt)};
   transition: 500ms;
 
   ${InputStyled}:focus ~ &, input:not(:placeholder-shown) ~ & {
     top: -18px;
     font-size: 0.8rem;
-    color: ${Colors.primaryBlue};
+    color: ${props => props.theme.colors.primaryBlue};
   }
 
   ${InputStyled}:invalid ~ & {
-    color: red;
-    border-color: red;
+    color: ${props => props.theme.colors.red};
+    border-color: ${props => props.theme.colors.red};
   }
 `;

@@ -1,5 +1,4 @@
 import styled from 'styled-components';
-import { Colors } from '../../styles/variables';
 
 export const CardsPageContainer = styled.section`
   display: flex;
@@ -10,7 +9,7 @@ export const CardsPageContainer = styled.section`
   height: 100vh;
   padding: 0;
   margin: 0;
-  background-color: ${Colors.pageBackground};
+  background-color: ${props => props.theme.colors.pageBackground};
 `;
 
 export const CardsContainer = styled.div`

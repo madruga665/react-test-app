@@ -1,7 +1,6 @@
-import React from "react";
 import Footer from "../../components/Footer";
 import Header from "../../components/Header";
-import ProfileCard from "../../components/ProfileCard/";
+import ProfileCard from "../../components/ProfileCard";
 import { CardsContainer, CardsPageContainer } from "./styles";
 
 const CardsPage = () => {

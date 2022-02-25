@@ -1,5 +1,4 @@
 import styled from 'styled-components';
-import { Colors } from '../../styles/variables';
 
 interface IProps {
   darkMode: boolean;
@@ -15,8 +14,8 @@ export const ProfileCardContainer = styled.div<IProps>`
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
   padding: 20px;
   margin: 25px;
-  background-color: ${props => props.darkMode ? Colors.wetAsphalt : Colors.white};
-  color: ${props => props.darkMode ? Colors.white : Colors.wetAsphalt};
+  background-color: ${props => props.darkMode ? props.theme.colors.wetAsphalt : props.theme.colors.white};
+  color: ${(props) => props.darkMode ? props.theme.colors.white : props.theme.colors.wetAsphalt};
   text-align: center;
   line-height: 2;
 

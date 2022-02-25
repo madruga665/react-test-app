@@ -1,5 +1,4 @@
 import styled from "styled-components";
-import { Colors } from "styles/variables";
 
 export const FormsPageContainer = styled.section`
   display: flex;
@@ -23,7 +22,7 @@ export const CardsContainer = styled.section`
 `;
 
 export const NotCardsMessage = styled.p`
-  color: ${Colors.wetAsphalt};
+  color: ${props => props.theme.colors.wetAsphalt};
   font-size: 1.5rem;
   font-weight: bold;
 `;

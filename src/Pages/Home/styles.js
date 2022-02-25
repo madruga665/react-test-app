@@ -1,5 +1,4 @@
 import styled from "styled-components";
-import { Colors } from "../../styles/variables";
 
 export const HomeContainer = styled.section`
   display: flex;
@@ -7,7 +6,7 @@ export const HomeContainer = styled.section`
   justify-content: space-between;
   align-items: center;
   height: 100vh;
-  background-color: ${Colors.pageBackground};
+  background-color: ${props => props.theme.colors.pageBackground};
 `;
 
 export const LinksContainer = styled.div`
@@ -16,16 +15,16 @@ export const LinksContainer = styled.div`
   margin-top: 2rem;
   a {
     text-decoration: none;
-    color: ${Colors.primaryBlue};
+    color: ${props => props.theme.colors.primaryBlue};
     margin-right: 1rem;
     font-weight: 800;
-    border: 1px solid ${Colors.primaryBlue};
+    border: 1px solid ${props => props.theme.colors.primaryBlue};
     padding: 0.5rem;
     border-radius: 5px;
     transition: 500ms;
     &:hover {
       color: #ffff;
-      background-color: ${Colors.primaryBlue};
+      background-color: ${props => props.theme.colors.primaryBlue};
     }
   }
 `;
