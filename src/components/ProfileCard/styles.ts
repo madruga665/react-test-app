@@ -1,7 +1,11 @@
 import styled from 'styled-components';
 import { Colors } from '../../styles/variables';
 
-export const ProfileCardContainer = styled.div` 
+interface IProps {
+  darkMode: boolean;
+}
+
+export const ProfileCardContainer = styled.div<IProps>` 
   font-family: sans-serif;
   display: flex;
   flex-direction: column;
@@ -11,12 +15,13 @@ export const ProfileCardContainer = styled.div`
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
   padding: 20px;
   margin: 25px;
-  background-color: ${props => props.CardType === 'DarkProfileCard' ? Colors.wetAsphalt : Colors.white};
-  color: ${props => props.CardType === 'DarkProfileCard' ? Colors.white : Colors.wetAsphalt};
+  background-color: ${props => props.darkMode ? Colors.wetAsphalt : Colors.white};
+  color: ${props => props.darkMode ? Colors.white : Colors.wetAsphalt};
   text-align: center;
   line-height: 2;
 
   img {
+    width: 200px;
     border-radius: 50%;
     margin: 25px;
   }

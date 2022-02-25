@@ -13,6 +13,7 @@ const CardsPage = () => {
       email: "madruga665@hotmail.com",
       name: "Madruga",
       phone: "(13) 98179-7296",
+      darkMode: true
     },
     {
       CardType: "LightProfileCard",
@@ -21,6 +22,7 @@ const CardsPage = () => {
       email: "madruga665@hotmail.com",
       name: "Madruga",
       phone: "(13) 98179-7296",
+      darkMode: false
     },
   ];
 
@@ -36,6 +38,7 @@ const CardsPage = () => {
             email={card.email}
             name={card.name}
             phone={card.phone}
+            darkMode={card.darkMode}
           />
         ))}
       </CardsContainer>
