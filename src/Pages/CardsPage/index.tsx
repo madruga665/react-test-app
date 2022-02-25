@@ -29,8 +29,9 @@ const CardsPage = () => {
     <CardsPageContainer>
       <Header title='Cartões' link1='/' linkTitle1='Home' link2='/form' linkTitle2='Formulário' />
       <CardsContainer>
-        {cardsData.map((card) => (
+        {cardsData.map((card, index) => (
           <ProfileCard
+            key={`${card.CardType}-${index}`}
             CardType={card.CardType}
             address={card.address}
             avatar={card.avatar}
