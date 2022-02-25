@@ -18,7 +18,7 @@ export const NumberFormatStyled = styled(NumberFormat)`
   font-size: 1rem;
   transition: 500ms;
   color: ${Colors.primaryBlue};
-  border-color: ${(props) => (props.error ? Colors.red : Colors.concret)};
+  border-color: ${(props) => (props.onError ? Colors.red : Colors.concret)};
 
   &::placeholder {
     color: transparent;
@@ -35,7 +35,7 @@ export const LabelStyled = styled.label`
   position: absolute;
   pointer-events: none;
   top: 10px;
-  color: ${(props) => (props.error ? Colors.red : Colors.wetAsphalt)};
+  color: ${(props) => (props.onError ? Colors.red : Colors.wetAsphalt)};
   transition: 500ms;
 
   ${NumberFormatStyled}:focus ~ &, input:not(:placeholder-shown) ~ & {

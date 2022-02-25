@@ -1,7 +1,13 @@
-import React from "react";
 import { NumberFormatStyled, LabelStyled, InputContainer } from "./styles";
 
-const PhoneNumberInput = ({ format, mask, label, id,}) => {
+interface IPhoneNumberInput {
+  format: string;
+  mask: string;
+  label: string;
+  id: string;
+}
+
+const PhoneNumberInput = ({ format, mask, label, id,}: IPhoneNumberInput) => {
   return (
     <InputContainer>
       <NumberFormatStyled placeholder=' ' format={format} mask={mask} id={id} name={id}  />
