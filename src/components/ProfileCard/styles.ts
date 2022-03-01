@@ -1,10 +1,13 @@
-import styled from 'styled-components';
+import styled from "styled-components";
+import { ITheme } from "styles/theme";
 
 interface IProps {
   darkMode: boolean;
+  theme: ITheme
 }
 
-export const ProfileCardContainer = styled.div<IProps>` 
+export const ProfileCardContainer = styled.div`
+  ${({ theme, darkMode }: IProps) => `
   font-family: sans-serif;
   display: flex;
   flex-direction: column;
@@ -14,8 +17,8 @@ export const ProfileCardContainer = styled.div<IProps>`
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
   padding: 20px;
   margin: 25px;
-  background-color: ${props => props.darkMode ? props.theme.colors.wetAsphalt : props.theme.colors.white};
-  color: ${(props) => props.darkMode ? props.theme.colors.white : props.theme.colors.wetAsphalt};
+  background-color: ${darkMode ? theme.colors.wetAsphalt : theme.colors.white};
+  color: ${darkMode ? theme.colors.white : theme.colors.wetAsphalt};
   text-align: center;
   line-height: 2;
 
@@ -24,6 +27,8 @@ export const ProfileCardContainer = styled.div<IProps>`
     border-radius: 50%;
     margin: 25px;
   }
+
+`}
 `;
 
 export const Content = styled.div`

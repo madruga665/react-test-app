@@ -23,6 +23,7 @@ DarkProfileCard.args = {
   email: "madruga665@hotmail.com",
   address: "Rua Quinze, nº 406, Vila Zilda, Guarujá - SP",
   CardType: "DarkProfileCard",
+  darkMode: true,
 };
 
 export const LightProfileCard = Template.bind({});
@@ -33,4 +34,5 @@ LightProfileCard.args = {
   email: "madruga665@hotmail.com",
   address: "Rua Quinze, nº 406, Vila Zilda, Guarujá - SP",
   CardType: "LightProfileCard",
+  darkMode: false,
 }
