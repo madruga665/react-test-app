@@ -1,1 +1,1 @@
-# Umsuper app para testar algumas libs
+# Um super app para testar algumas libs
